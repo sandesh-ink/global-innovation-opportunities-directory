@@ -522,6 +522,70 @@ mark.search-highlight {
   background-color: #ffffff;
 }
 
+/* Persona Quick Pills */
+.persona-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid var(--border-light);
+  background-color: #ffffff;
+  color: var(--text-body);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.persona-pill:hover {
+  border-color: var(--primary-600);
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+}
+.persona-pill.active {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Playbook Modal & Tabs */
+.playbook-dialog {
+  max-width: 900px;
+}
+
+.playbook-tab-btn {
+  padding: 10px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.playbook-tab-btn:hover {
+  color: var(--primary-700);
+  background: var(--bg-subtle);
+}
+.playbook-tab-btn.active {
+  color: var(--primary-700);
+  border-bottom-color: var(--primary-600);
+  background: #ffffff;
+}
+
+.pro-tip-box {
+  background-color: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
 /* Print Friendly Styles */
 @media print {
   .no-print {

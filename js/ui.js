@@ -801,6 +801,30 @@
     document.body.style.overflow = 'hidden';
   };
 
+  /**
+   * Tailored Application Strategy Pro-Tips
+   */
+  function getCategoryProTip(item) {
+    const cats = item.categories || [];
+
+    if (cats.includes('Accelerators') || cats.includes('Incubators')) {
+      return 'Accelerator committees evaluate team velocity, founder obsession, and iteration speed above all else. In your 2-minute founder video and application answers, keep it authentic — demo your working prototype or live codebase within the first 30 seconds rather than reciting high-level slides.';
+    }
+    if (cats.includes('Grants') || cats.includes('Competitions')) {
+      return 'Non-dilutive grant committees care deeply about milestone accountability, quantifiable beneficiaries, and clear proof of impact. Ensure your 12-month budget maps specific dollar figures directly to verifiable technical or operational milestones rather than general overhead.';
+    }
+    if (cats.includes('Fellowships')) {
+      return 'Fellowship selection panels look for personal leadership resilience and an undeniable multiplier effect. Focus your essays on a pivotal challenge you overcame, why you are uniquely qualified to solve this problem, and how you will reinvest your fellowship access into your community.';
+    }
+    if (cats.includes('Scholarships') || cats.includes('Research')) {
+      return 'Academic selection committees prioritize intellectual clarity, alignment with host faculty research, and rigorous preparation. Secure recommendation letters from professors or research supervisors who can speak directly to your analytical resilience.';
+    }
+    if (cats.includes('Internships') || cats.includes('Training')) {
+      return 'Technical recruiters look for tangible proof of curiosity and coachability. Link directly to your GitHub, live side projects, or a brief case study showing how you built or solved a real problem.';
+    }
+    return 'Reviewers evaluate hundreds of submissions per hour. De-risk your application by answering the exact prompts with specific metrics, testing all external links in an Incognito window, and completing your submission at least 48 hours before the deadline.';
+  }
+
   function populateModal(item) {
     if (!item) return;
 
@@ -812,6 +836,12 @@
     modalEligibility.textContent = item.eligibility_criteria;
     modalDeadline.textContent = item.application_deadline;
     modalApplyBtn.href = item.application_url;
+
+    // Application Pro-Tip
+    const modalProTip = document.getElementById('modal-pro-tip');
+    if (modalProTip) {
+      modalProTip.textContent = getCategoryProTip(item);
+    }
 
     // Deadline status badge & subtext
     modalDeadlineStatusBadge.innerHTML = getDeadlineBadge(item);
@@ -975,8 +1005,91 @@
     state.onlyActiveDeadlines = false;
     state.sort = 'name-asc';
     state.page = 1;
+
+    // Reset persona pills
+    document.querySelectorAll('.persona-pill').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-persona') === 'all');
+    });
+
     refresh();
     showToast('All filters reset');
+  };
+
+  /**
+   * Persona Quick-Filter Handler (Who It's For)
+   */
+  window.applyPersonaFilter = function (personaKey) {
+    state.search = '';
+    if (searchInput) searchInput.value = '';
+    state.regions = [];
+    state.categories = [];
+    state.deadlineTypes = [];
+    state.eligibilityTags = [];
+    state.onlySaved = false;
+    state.onlyActiveDeadlines = false;
+    state.page = 1;
+
+    if (personaKey === 'startups') {
+      state.eligibilityTags = ['Startups', 'Entrepreneurs'];
+      showToast('Filtered for Founders & Startups (79 programs)');
+    } else if (personaKey === 'women') {
+      state.eligibilityTags = ['Women'];
+      showToast('Filtered for Women in Tech & Female Founders (25 programs)');
+    } else if (personaKey === 'youth') {
+      state.eligibilityTags = ['Young professionals', 'Graduates'];
+      showToast('Filtered for Young Professionals & Developers (28 programs)');
+    } else if (personaKey === 'students') {
+      state.eligibilityTags = ['Students', 'Researchers'];
+      showToast('Filtered for Students & Researchers (28 programs)');
+    } else if (personaKey === 'smes') {
+      state.eligibilityTags = ['SMEs/business owners', 'NGOs'];
+      showToast('Filtered for MSMEs & Grassroots Innovators (34 programs)');
+    } else {
+      showToast('Showing all 138 opportunities');
+    }
+
+    // Update persona pills active state
+    document.querySelectorAll('.persona-pill').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-persona') === personaKey);
+    });
+
+    // Close playbook modal if open
+    window.closePlaybookModal();
+
+    refresh();
+    window.scrollTo({ top: 380, behavior: 'smooth' });
+  };
+
+  /**
+   * Playbook Modal Controls
+   */
+  const playbookModal = document.getElementById('playbook-modal');
+  const playbookBackdrop = document.getElementById('playbook-modal-backdrop');
+
+  window.openPlaybookModal = function (tabName = 'tab-overview') {
+    if (!playbookModal || !playbookBackdrop) return;
+    playbookModal.classList.add('open');
+    playbookBackdrop.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    if (tabName) window.switchPlaybookTab(tabName);
+  };
+
+  window.closePlaybookModal = function () {
+    if (!playbookModal || !playbookBackdrop) return;
+    playbookModal.classList.remove('open');
+    playbookBackdrop.classList.remove('open');
+    if (!modal.classList.contains('open')) {
+      document.body.style.overflow = '';
+    }
+  };
+
+  window.switchPlaybookTab = function (tabId) {
+    document.querySelectorAll('.playbook-tab-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-tab') === tabId);
+    });
+    document.querySelectorAll('.playbook-tab-content').forEach(content => {
+      content.classList.toggle('hidden', content.id !== tabId);
+    });
   };
 
   /**
@@ -1019,7 +1132,7 @@
 
     const csvData = DirectoryEngine.generateCSV(currentFilteredList);
     const dateStamp = new Date().toISOString().slice(0, 10);
-    const filename = `Global_Innovation_Opportunities_Directory_${dateStamp}.csv`;
+    const filename = `OpportunityAtlas_Directory_${dateStamp}.csv`;
 
     const blob = new Blob([csvData], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
@@ -1270,9 +1383,41 @@
       if (currentItem) window.toggleBookmark(currentItem.id);
     });
 
+    // Playbook Modal triggers
+    const openPlaybookBtn = document.getElementById('open-playbook-btn');
+    if (openPlaybookBtn) openPlaybookBtn.addEventListener('click', () => window.openPlaybookModal('tab-overview'));
+
+    const guideLinkBtn = document.getElementById('guide-link-btn');
+    if (guideLinkBtn) guideLinkBtn.addEventListener('click', () => window.openPlaybookModal('tab-principles'));
+
+    const playbookCloseBtn = document.getElementById('playbook-close-btn');
+    if (playbookCloseBtn) playbookCloseBtn.addEventListener('click', window.closePlaybookModal);
+
+    if (playbookBackdrop) playbookBackdrop.addEventListener('click', window.closePlaybookModal);
+
+    // Playbook Tab Buttons Delegation
+    document.querySelectorAll('.playbook-tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tabId = btn.getAttribute('data-tab');
+        window.switchPlaybookTab(tabId);
+      });
+    });
+
+    // Persona Pills Delegation
+    document.querySelectorAll('.persona-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const pKey = btn.getAttribute('data-persona');
+        window.applyPersonaFilter(pKey);
+      });
+    });
+
     // Keyboard Shortcuts
     window.addEventListener('keydown', (e) => {
-      if (modal.classList.contains('open')) {
+      if (playbookModal && playbookModal.classList.contains('open')) {
+        if (e.key === 'Escape') {
+          window.closePlaybookModal();
+        }
+      } else if (modal.classList.contains('open')) {
         if (e.key === 'Escape') {
           window.closeModal();
         } else if (e.key === 'ArrowLeft') {

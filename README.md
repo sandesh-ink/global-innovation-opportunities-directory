@@ -1,6 +1,55 @@
-# GLOBAL INNOVATION OPPORTUNITIES DIRECTORY 2026/2027
+# OpportunityAtlas (2026/2027)
+### The Global Innovation, Grants & Accelerators Directory
 
-A complete, database-driven, responsive, searchable, sortable, and filterable web application constructed from the **2026/2027 Master Directory of Global & Regional Opportunities**, originally compiled and published by **Abdulsamad ([@richtosho](https://x.com/richtosho))** on X / Twitter.
+A complete, database-driven, responsive intelligence platform and interactive directory constructed from the **2026/2027 Master Opportunities Directory**, originally compiled and published by **Abdulsamad ([@richtosho](https://x.com/richtosho))** on X / Twitter.
+
+OpportunityAtlas transforms raw PDF data into an active operational cockpit for founders, researchers, women in tech, students, and SMEs seeking non-dilutive grants, pre-seed accelerators, and fellowships worldwide.
+
+---
+
+## 🧭 What This Is
+
+OpportunityAtlas tracks **$100M+ in funding pools across 138 vetted global and regional programs** spanning 7 continents. It goes beyond a simple directory by integrating real-time deadline calculations, category-specific applicant pro-tips, universal document checklists, and interactive geographic map filtering.
+
+---
+
+## 🎯 Who It's For: 5 Dedicated Pathways
+
+1. **🚀 Early-Stage Founders & Tech Startups (79 Programs)**:
+   - Seeking pre-seed equity/grant checks ($10k–$1M), mentorship, and accelerator network velocity.
+   - *Key Programs*: Y Combinator, Google for Startups Accelerator Africa, Startup World Cup ($1M), Katapult Africa.
+2. **👩‍💻 Female Founders & Women in Tech (25 Programs)**:
+   - Dedicated funding streams and accelerator cohorts prioritizing women to close the gender financing gap.
+   - *Key Programs*: Flourish Africa ($3.5M Fund), Girl Up Ubuntu Leaders, L’Oréal–UNESCO For Women in Science.
+3. **💼 Tech Talents, Developers & Young Professionals (28 Programs)**:
+   - Paid engineering apprenticeships, developer training, and social entrepreneurship fellowships.
+   - *Key Programs*: Echoing Green, Moniepoint Graduate Internship, Acumen West Africa.
+4. **🎓 Students & Academic Scholars (28 Programs)**:
+   - Fully funded master's and doctoral scholarships, tuition waivers, and international research residencies.
+   - *Key Programs*: Rotary Peace Fellowships, DAAD EPOS Scholarships, World Bank Robert S. McNamara Fellowship.
+5. **🌱 MSMEs, Agribusiness & Impact Innovators (34 Programs)**:
+   - Small business growth challenges, equipment grants, and clean energy competitions.
+   - *Key Programs*: Sundry Markets MSMEs Growth Challenge, UNDP Pan-African AgriTech Incubation.
+
+---
+
+## 🏆 The Applicant Playbook: 5 Golden Rules for Winning Applications
+
+1. **Lead with Quantified Traction, Not Lofty Philosophy**:
+   - Reviewers read hundreds of decks per hour. Avoid generic mission statements (*"We are passionate about farming"*). Provide concrete metrics: *"We piloted with 12 smallholders, reducing crop spoilage by 23% in 60 days."* Even if pre-product, quantify customer discovery interviews or waitlist demand.
+2. **The 72-Hour Application Pack (Prepare in Advance)**:
+   - 90% of rejections happen due to rushed, last-minute submissions. Prepare a dedicated Google Drive folder with:
+     - 10-slide high-contrast pitch deck (PDF format).
+     - 2-minute unlisted YouTube/Loom founder pitch video (clear audio, natural delivery, live product demo).
+     - Certificate of incorporation (CAC/LLC/Ltd) and government IDs.
+     - 12-month milestone-based budget table (never generic lump sums).
+     - Two recommendation letters on official letterheads.
+3. **Master the Grant vs. Accelerator Incentive Model**:
+   - Non-dilutive grants (equity-free) want measurable social/economic milestones, jobs created, and financial transparency. Venture accelerators (YC, Techstars) seek $10B market size, team velocity, and venture-scale returns.
+4. **De-Risk the Reviewer (Answer the Exact Prompt)**:
+   - Selection panels look for easy reasons to eliminate applications. Avoid jargon, strictly observe character limits, and test all external URLs/video links in an Incognito window before submission.
+5. **Beat the Timezone and Rolling-Intake Clock**:
+   - The directory features **29 Rolling Intakes**. Rolling programs evaluate applicants sequentially — submitting in Week 1 provides up to **3x higher acceptance odds** than submitting on the final deadline when quotas are nearly full.
 
 ---
 
