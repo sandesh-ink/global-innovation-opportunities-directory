@@ -19,7 +19,7 @@
     onlyActiveDeadlines: false,
     sort: 'name-asc',
     page: 1,
-    perPage: 20,
+    perPage: 6,
     viewMode: 'cards', // 'cards' | 'table'
     savedIds: new Set(JSON.parse(localStorage.getItem('god_saved_ids') || '[]')),
     checklistState: JSON.parse(localStorage.getItem('god_checklist_state') || '{}')
@@ -124,10 +124,14 @@
    */
   function renderHeaderKPIs() {
     const stats = DirectoryEngine.computeDirectoryStats(dataset);
-    document.getElementById('stat-total').textContent = stats.totalOpportunities;
-    document.getElementById('stat-regions').textContent = stats.regionsCoveredCount;
-    document.getElementById('stat-rolling').textContent = stats.rollingCount;
-    document.getElementById('stat-dated').textContent = stats.datedDeadlinesCount;
+    const elTotal = document.getElementById('stat-total');
+    if (elTotal) elTotal.textContent = stats.totalOpportunities;
+    const elRegions = document.getElementById('stat-regions');
+    if (elRegions) elRegions.textContent = stats.regionsCoveredCount;
+    const elRolling = document.getElementById('stat-rolling');
+    if (elRolling) elRolling.textContent = stats.rollingCount;
+    const elDated = document.getElementById('stat-dated');
+    if (elDated) elDated.textContent = stats.datedDeadlinesCount;
 
     const liveDateEl = document.getElementById('live-today-date');
     if (liveDateEl) {

@@ -243,7 +243,7 @@
       referenceDate = null,
       sort = 'name-asc',
       page = 1,
-      perPage = 20
+      perPage = 6
     } = options;
 
     const tokens = tokenize(search);
@@ -352,7 +352,7 @@
     let normalizedPage = 1;
 
     if (perPage !== 'all') {
-      const perPageNum = parseInt(perPage, 10) || 20;
+      const perPageNum = parseInt(perPage, 10) || 6;
       totalPages = Math.max(1, Math.ceil(totalCount / perPageNum));
       normalizedPage = Math.min(Math.max(1, parseInt(page, 10) || 1), totalPages);
       const startIdx = (normalizedPage - 1) * perPageNum;
@@ -474,7 +474,7 @@
     if (state.onlySaved) params.set('saved', 'true');
     if (state.onlyActiveDeadlines) params.set('activeOnly', 'true');
     if (state.sort && state.sort !== 'name-asc') params.set('sort', state.sort);
-    if (state.perPage && state.perPage !== 20) params.set('perPage', state.perPage);
+    if (state.perPage && state.perPage !== 6) params.set('perPage', state.perPage);
     if (state.page && state.page > 1) params.set('page', state.page);
     if (state.viewMode && state.viewMode !== 'cards') params.set('view', state.viewMode);
 

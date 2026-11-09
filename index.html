@@ -49,62 +49,73 @@
   </div>
 
   <!-- DASHBOARD HEADER -->
-  <header class="bg-white border-b border-slate-200 shadow-sm py-6 sm:py-8">
+  <header class="bg-white border-b border-slate-200 shadow-xs py-7 sm:py-9">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
-        <div>
-          <div class="flex items-center gap-2 mb-1.5 flex-wrap">
-            <span class="px-2.5 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider bg-blue-600 text-white shadow-xs">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 lg:gap-10">
+        
+        <!-- Left Side: Expanded Title, Tagline, Attribution & Program Badges -->
+        <div class="flex-1 max-w-3xl">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
+            <span class="px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-blue-600 text-white shadow-xs">
               OpportunityAtlas
             </span>
-            <span class="text-xs text-slate-500 font-medium">Edition 2026/2027 • 138 Vetted Programs</span>
+            <span class="px-2.5 py-0.5 rounded-md text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-200">
+              Edition 2026/2027
+            </span>
+            <span class="px-2.5 py-0.5 rounded-md text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+              138 Vetted Programs
+            </span>
+            <span class="px-2.5 py-0.5 rounded-md text-xs font-medium bg-slate-50 text-slate-500 border border-slate-200 hidden sm:inline-flex items-center gap-1">
+              <svg class="w-3 h-3 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Extracted from 23-page PDF Catalog
+            </span>
           </div>
-          <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight flex items-center gap-2">
+
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight flex items-center gap-2">
             <span class="text-blue-700">Opportunity</span><span>Atlas</span>
           </h1>
-          <p class="mt-1.5 text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
-            The curated directory of scholarships, grants, fellowships, and accelerators across Africa & worldwide.
+
+          <p class="mt-2 text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
+            The curated directory of scholarships, grants, fellowships, and accelerators across Africa &amp; worldwide.
           </p>
-          <div class="mt-3.5 flex items-center gap-3 flex-wrap">
-            <button id="open-playbook-btn" class="playbook-hero-btn" title="Open Applicant Playbook & Strategy Guide">
-              <span class="playbook-hero-icon">
-                <svg class="w-4 h-4 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </span>
-              <span class="font-bold text-white text-xs sm:text-sm">Applicant Playbook & Advice</span>
-              <span class="playbook-badge">STRATEGY GUIDE</span>
-            </button>
-            <div class="flex items-center gap-1.5 text-xs text-slate-500">
-              <span>Data originated by:</span>
-              <a href="https://x.com/richtosho" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 font-bold text-slate-900 hover:text-blue-600 transition-colors bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded border border-slate-200">
-                <svg class="w-3 h-3 fill-current text-slate-700" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-                <span>Abdulsamad (@richtosho)</span>
-              </a>
-            </div>
+
+          <div class="mt-3.5 flex items-center gap-2.5 flex-wrap text-xs text-slate-500">
+            <span>Data compiled &amp; originated by:</span>
+            <a href="https://x.com/richtosho" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 font-bold text-slate-900 hover:text-blue-600 transition-colors bg-slate-100 hover:bg-slate-200 px-2.5 py-1 rounded-md border border-slate-200 shadow-2xs">
+              <svg class="w-3.5 h-3.5 fill-current text-slate-800" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+              <span>Abdulsamad (@richtosho) on X</span>
+            </a>
+            <span class="text-slate-300 hidden md:inline">•</span>
+            <span class="text-slate-500 hidden md:inline">0 duplicates • 100% link verified</span>
           </div>
         </div>
 
-        <!-- KPI Metrics Grid -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-lg lg:max-w-xl w-full">
-          <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 shadow-xs">
-            <div class="text-2xl font-extrabold text-blue-700" id="stat-total">138</div>
-            <div class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">Total Opportunities</div>
-          </div>
-          <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 shadow-xs">
-            <div class="text-2xl font-extrabold text-teal-700" id="stat-regions">7</div>
-            <div class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">Regions Covered</div>
-          </div>
-          <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 shadow-xs">
-            <div class="text-2xl font-extrabold text-emerald-700" id="stat-rolling">29</div>
-            <div class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">Rolling Intakes</div>
-          </div>
-          <div class="bg-slate-50 border border-slate-200 rounded-xl p-3 shadow-xs">
-            <div class="text-2xl font-extrabold text-indigo-700" id="stat-dated">72</div>
-            <div class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">Dated Deadlines</div>
+        <!-- Right Side: Prominent Hero Playbook CTA Box -->
+        <div class="lg:w-80 flex flex-col sm:flex-row lg:flex-col gap-2.5 shrink-0 justify-center">
+          <button id="open-playbook-btn" class="playbook-hero-btn w-full justify-between py-3.5 px-5 rounded-2xl group shadow-md" title="Open Applicant Playbook & Strategy Guide">
+            <div class="flex items-center gap-3">
+              <span class="playbook-hero-icon w-10 h-10 rounded-xl flex-shrink-0 bg-white/20 group-hover:scale-110 transition-transform">
+                <svg class="w-5 h-5 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </span>
+              <div class="text-left">
+                <div class="text-[11px] uppercase font-extrabold tracking-wider text-amber-300">Actionable Guide</div>
+                <div class="font-extrabold text-white text-sm sm:text-base leading-tight">Applicant Playbook &amp; Advice</div>
+              </div>
+            </div>
+            <span class="playbook-badge text-[10px] ml-2 shrink-0">OPEN GUIDE</span>
+          </button>
+          
+          <div class="flex items-center justify-between px-1 text-[11px] text-slate-500">
+            <span>Winning pitch formulas &amp; checklist</span>
+            <span class="font-semibold text-purple-700 flex items-center gap-0.5">Free Guide →</span>
           </div>
         </div>
 
@@ -592,12 +603,12 @@
       <div class="flex items-center gap-2 text-slate-600">
         <span>Show per page:</span>
         <select id="per-page-select" class="rounded-md border border-slate-300 py-1 px-2 text-xs font-semibold bg-white cursor-pointer focus:ring-1 focus:ring-blue-600">
-          <option value="10">10</option>
-          <option value="20" selected>20</option>
-          <option value="50">50</option>
+          <option value="6" selected>6</option>
+          <option value="12">12</option>
+          <option value="24">24</option>
           <option value="all">All (138)</option>
         </select>
-        <span id="pagination-info" class="text-slate-400 ml-2">Showing 1–20 of 138</span>
+        <span id="pagination-info" class="text-slate-400 ml-2">Showing 1–6 of 138</span>
       </div>
 
       <!-- Page Navigation Buttons -->

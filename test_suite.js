@@ -162,6 +162,16 @@ if (validBadges !== 138) {
   throw new Error('Not all items produced a valid status badge');
 }
 
+console.log('\n--- 9. TEST DEFAULT PAGINATION (6 PER PAGE) ---');
+const defaultPaginated = Engine.filterAndSort(rawData);
+console.log(`Default pagination items returned: ${defaultPaginated.items.length}, total pages: ${defaultPaginated.totalPages}`);
+if (defaultPaginated.items.length !== 6) {
+  throw new Error(`Expected default page size of 6, got ${defaultPaginated.items.length}`);
+}
+if (defaultPaginated.totalPages !== Math.ceil(138 / 6)) {
+  throw new Error(`Expected ${Math.ceil(138 / 6)} pages, got ${defaultPaginated.totalPages}`);
+}
+
 console.log('\n=======================================');
-console.log('ALL 8 AUTOMATED VERIFICATION TESTS PASSED!');
+console.log('ALL 9 AUTOMATED VERIFICATION TESTS PASSED!');
 console.log('=======================================');
