@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: global-opportunities-directory
+    env: static
+    buildCommand: ""
+    staticPublishPath: .

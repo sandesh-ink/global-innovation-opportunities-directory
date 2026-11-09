@@ -1,0 +1,4322 @@
+window.MASTER_OPPORTUNITIES_DATA = [
+  {
+    "id": 1,
+    "opportunity_name": "Accelerator A26 Program",
+    "continent_or_region": "Africa / Global",
+    "eligibility_criteria": "Early-stage tech startups and innovators across Africa and global hubs.",
+    "key_benefits_and_rewards": "Targeted startup acceleration, expert advisory, and resource network scaling.",
+    "required_documents": "Business Proposal, Founder IDs, Pitch Deck.",
+    "required_documents_list": [
+      "Business Proposal",
+      "Founder IDs",
+      "Pitch Deck"
+    ],
+    "application_deadline": "Rolling through 2026",
+    "application_url": "https://thescathgroup.univer.se/accelerator",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 1,
+    "data_quality_notes": "URL joined across lines. Deadline is rolling throughout 2026.",
+    "categories": [
+      "Accelerators",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa",
+      "Global"
+    ]
+  },
+  {
+    "id": 2,
+    "opportunity_name": "TSC Incubator Program",
+    "continent_or_region": "Africa / Global",
+    "eligibility_criteria": "Early-stage ideas and pre-seed ventures requiring structural business design.",
+    "key_benefits_and_rewards": "Structured incubation support, workspace infrastructure, and business modeling.",
+    "required_documents": "Idea Pitch Deck, Team Bios, Executive Summary.",
+    "required_documents_list": [
+      "Idea Pitch Deck",
+      "Team Bios",
+      "Executive Summary"
+    ],
+    "application_deadline": "Rolling Intake",
+    "application_url": "https://thescathgroup.univer.se/incubator",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 1,
+    "data_quality_notes": "URL joined across lines. Continuous rolling intake format.",
+    "categories": [
+      "Incubators",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa",
+      "Global"
+    ]
+  },
+  {
+    "id": 3,
+    "opportunity_name": "Moniepoint Inc. Women in Tech Internship",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female tech graduates or early-career women based in Nigeria.",
+    "key_benefits_and_rewards": "6-month paid internship, hands-on live project tracking, and tech mentorship.",
+    "required_documents": "Updated CV, Cover Letter, Academic transcripts.",
+    "required_documents_list": [
+      "Updated CV",
+      "Cover Letter",
+      "Academic transcripts"
+    ],
+    "application_deadline": "Cohort-based rolling",
+    "application_url": "https://womenintech.moniepoint.com",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 1,
+    "data_quality_notes": "URL joined across lines. Cohort-based recurring application cycle.",
+    "categories": [
+      "Internships",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Graduates",
+      "Young professionals",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 4,
+    "opportunity_name": "SAP Young Professionals Program",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Unemployed or underemployed young graduates in African countries.",
+    "key_benefits_and_rewards": "Free technical training, soft skills development, and SAP Global Certification.",
+    "required_documents": "CV, University Degree Certificate, Academic Transcript.",
+    "required_documents_list": [
+      "CV",
+      "University Degree Certificate",
+      "Academic Transcript"
+    ],
+    "application_deadline": "Varies by regional batch",
+    "application_url": "https://jobs.sap.com",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 1,
+    "data_quality_notes": "Regional batch dates vary by country hub across Africa.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Graduates",
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 5,
+    "opportunity_name": "African Union Youth Volunteer Corps (AU-YVC)",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "African Union Member State citizens aged 18–35 with a post-secondary degree.",
+    "key_benefits_and_rewards": "Full scholarships, comprehensive monthly stipend, and covered accommodation.",
+    "required_documents": "Passport copy, CV, Degree Certificate, Cover Letter.",
+    "required_documents_list": [
+      "Passport copy",
+      "CV",
+      "Degree Certificate",
+      "Cover Letter"
+    ],
+    "application_deadline": "Check portal for 2027 batch",
+    "application_url": "https://jobs.au.int",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 1,
+    "data_quality_notes": "Official portal application for upcoming 2027 batch intake.",
+    "categories": [
+      "Scholarships"
+    ],
+    "eligibility_tags": [
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 6,
+    "opportunity_name": "LSETF Female Founders & Funders Program 3.0",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female-led tech or tech-enabled startups operating operationally within Lagos, Nigeria.",
+    "key_benefits_and_rewards": "Direct investor readiness training, venture mentoring, and network access.",
+    "required_documents": "CAC Registration Document, Pitch Deck, Financial Records.",
+    "required_documents_list": [
+      "CAC Registration Document",
+      "Pitch Deck",
+      "Financial Records"
+    ],
+    "application_deadline": "Varies by sector",
+    "application_url": "https://lagosinnovates.ng/female-founders-funders/",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 2,
+    "data_quality_notes": "URL joined across lines with hyphen intact. Sector-specific cohort intake.",
+    "categories": [
+      "Grants",
+      "Training",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 7,
+    "opportunity_name": "Startup Innovation Challenge",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Registered innovative Nigerian tech startups and SMEs.",
+    "key_benefits_and_rewards": "Cash prizes and growth grant funding valued over ₦100 Million.",
+    "required_documents": "Pitch Deck, Business Registration Proof, Financial Overview.",
+    "required_documents_list": [
+      "Pitch Deck",
+      "Business Registration Proof",
+      "Financial Overview"
+    ],
+    "application_deadline": "October 15, 2026",
+    "application_url": "https://startupabuja.com.ng/innovation-challenge",
+    "deadline_date": "2026-10-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 2,
+    "data_quality_notes": "Listed deadline was October 15, 2026.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 8,
+    "opportunity_name": "SACREEE Capacity-Building Programme",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female clean energy and renewable entrepreneurs within the SADC region.",
+    "key_benefits_and_rewards": "Technical capacity building, clean energy scaling tools, and mentorship.",
+    "required_documents": "Business Plan, National ID, Proof of Sector Operations.",
+    "required_documents_list": [
+      "Business Plan",
+      "National ID",
+      "Proof of Sector Operations"
+    ],
+    "application_deadline": "Mid-November 2026",
+    "application_url": "https://www.sacreee.org",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 2,
+    "data_quality_notes": "Approximate deadline: Mid-November 2026.",
+    "categories": [
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 9,
+    "opportunity_name": "Bet9ja Foundation ScaleUp Business Accelerator 2.0",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Growing enterprise owners and SMEs operating inside Nigeria.",
+    "key_benefits_and_rewards": "Direct business development grants scaled up to ₦3 Million.",
+    "required_documents": "Business Pitch, Tax Compliance/ID, Business Registration.",
+    "required_documents_list": [
+      "Business Pitch",
+      "Tax Compliance/ID",
+      "Business Registration"
+    ],
+    "application_deadline": "October 30, 2026",
+    "application_url": "https://app.bet9jafoundation.org/login",
+    "deadline_date": "2026-10-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 2,
+    "data_quality_notes": "Listed deadline was October 30, 2026.",
+    "categories": [
+      "Grants",
+      "Accelerators",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 10,
+    "opportunity_name": "AfCFTA African Agribusiness SME Matchmaking",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Agribusiness small and medium enterprises operating within African trade zones.",
+    "key_benefits_and_rewards": "Direct B2B matching, regional trade line exposure, and market entry tools.",
+    "required_documents": "Corporate Profile, Agribusiness License, Product Catalog.",
+    "required_documents_list": [
+      "Corporate Profile",
+      "Agribusiness License",
+      "Product Catalog"
+    ],
+    "application_deadline": "Rolling selection",
+    "application_url": "https://surveys.intracen.org",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 2,
+    "data_quality_notes": "Continuous B2B matchmaking survey rolling selection.",
+    "categories": [
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 11,
+    "opportunity_name": "GEC+Africa Nigeria Regional Pitch Competition",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Early-to-growth stage startups operating across Nigeria.",
+    "key_benefits_and_rewards": "Direct pitch track positioning and international startup ecosystem access.",
+    "required_documents": "Comprehensive Pitch Deck, Team Bios, Product Demo Link.",
+    "required_documents_list": [
+      "Comprehensive Pitch Deck",
+      "Team Bios",
+      "Product Demo Link"
+    ],
+    "application_deadline": "October 20, 2026",
+    "application_url": "https://gecafrica.co/regional-pitch-competition/",
+    "deadline_date": "2026-10-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 2,
+    "data_quality_notes": "Listed deadline was October 20, 2026.",
+    "categories": [
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 12,
+    "opportunity_name": "DTH-Lab Fully Remote Fellowship Program",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Global youth, digital policy advocates, and tech researchers aged 18–30.",
+    "key_benefits_and_rewards": "Fully remote fellowship role along with a targeted $1,250 performance stipend.",
+    "required_documents": "Creative Portfolio, CV, Letter of Intent, References.",
+    "required_documents_list": [
+      "Creative Portfolio",
+      "CV",
+      "Letter of Intent",
+      "References"
+    ],
+    "application_deadline": "September 1, 2026",
+    "application_url": "https://transformhealthit.org",
+    "deadline_date": "2026-09-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 3,
+    "data_quality_notes": "Listed deadline was September 1, 2026.",
+    "categories": [
+      "Scholarships",
+      "Fellowships"
+    ],
+    "eligibility_tags": [
+      "Young professionals",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 13,
+    "opportunity_name": "GSMA Innovation Fund for Green Transition",
+    "continent_or_region": "Africa / Asia",
+    "eligibility_criteria": "Registered digital tech startups using mobile technology for climate action.",
+    "key_benefits_and_rewards": "£100,000 to £200,000 in equity-free development project funding grants.",
+    "required_documents": "Pitch Deck, Audited Financial Statements, Project Blueprint.",
+    "required_documents_list": [
+      "Pitch Deck",
+      "Audited Financial Statements",
+      "Project Blueprint"
+    ],
+    "application_deadline": "October 15, 2026",
+    "application_url": "https://www.gsma.com",
+    "deadline_date": "2026-10-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 3,
+    "data_quality_notes": "Listed deadline was October 15, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa",
+      "Asia"
+    ]
+  },
+  {
+    "id": 14,
+    "opportunity_name": "MTN Y’ellopreneur Grant 2026",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female business entrepreneurs managing registered enterprises in Nigeria.",
+    "key_benefits_and_rewards": "Equipment/growth loans and direct business scaling grants up to ₦5 Million.",
+    "required_documents": "CAC Business Registration, Detailed Business Plan, Government ID.",
+    "required_documents_list": [
+      "CAC Business Registration",
+      "Detailed Business Plan",
+      "Government ID"
+    ],
+    "application_deadline": "November 5, 2026",
+    "application_url": "https://www.mtn.ng/foundation/yellopreneur/",
+    "deadline_date": "2026-11-05",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 3,
+    "data_quality_notes": "Listed deadline was November 5, 2026.",
+    "categories": [
+      "Grants",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 15,
+    "opportunity_name": "Agribusiness Facility for Africa e-Academy",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Agripreneurs, agro-processors, and rural value chain actors across Africa.",
+    "key_benefits_and_rewards": "Win a €2,000 performance grant, business laptop hardware, and mentorship.",
+    "required_documents": "Project Entry Outline, Proof of Farming/Business Activity.",
+    "required_documents_list": [
+      "Project Entry Outline",
+      "Proof of Farming/Business Activity"
+    ],
+    "application_deadline": "October 24, 2026",
+    "application_url": "https://www.agribusiness-facility.org/funding.html",
+    "deadline_date": "2026-10-24",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 3,
+    "data_quality_notes": "Listed deadline was October 24, 2026.",
+    "categories": [
+      "Grants",
+      "Mentorship",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 16,
+    "opportunity_name": "FINCA Ventures Prize Competition",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "African social impact ventures delivering tech solutions for agrifood or fintech.",
+    "key_benefits_and_rewards": "Direct venture growth grant funding packages scaled up to $100,000.",
+    "required_documents": "Business Growth Model, Financial Audits, Impact Metrics.",
+    "required_documents_list": [
+      "Business Growth Model",
+      "Financial Audits",
+      "Impact Metrics"
+    ],
+    "application_deadline": "October 12, 2026",
+    "application_url": "https://fincaventures.awardsplatform.com",
+    "deadline_date": "2026-10-12",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 3,
+    "data_quality_notes": "Listed deadline was October 12, 2026.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 17,
+    "opportunity_name": "FG Free Upskilling Program for 10M Youths",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young Nigerian citizens looking to acquire high-demand vocational or digital tech skills.",
+    "key_benefits_and_rewards": "Completely free comprehensive digital upskilling classes and trade tracking.",
+    "required_documents": "National Identification Number (NIN), Basic Bio-data details.",
+    "required_documents_list": [
+      "National Identification Number (NIN)",
+      "Basic Bio-data details"
+    ],
+    "application_deadline": "Continuous intake",
+    "application_url": "https://wawuafrica.com/onboarding",
+    "deadline_date": null,
+    "deadline_type": "Continuous intake",
+    "is_past_deadline": false,
+    "deadline_status_label": "Continuous intake — verify status with provider",
+    "source_page": 3,
+    "data_quality_notes": "Ongoing continuous intake for federal upskilling program.",
+    "categories": [
+      "Training",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 18,
+    "opportunity_name": "Mastercard Foundation Associates Program",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young African tertiary graduates under 35 with a passion for regional development.",
+    "key_benefits_and_rewards": "12-Month highly structured paid professional associate internship position.",
+    "required_documents": "Academic Degree, Comprehensive Resume, Personal Cover Letter.",
+    "required_documents_list": [
+      "Academic Degree",
+      "Comprehensive Resume",
+      "Personal Cover Letter"
+    ],
+    "application_deadline": "October 31, 2026",
+    "application_url": "https://mastercardfdn.org",
+    "deadline_date": "2026-10-31",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 3,
+    "data_quality_notes": "Record spans across Page 3 and Page 4 of the PDF; fields joined cleanly.",
+    "categories": [
+      "Internships"
+    ],
+    "eligibility_tags": [
+      "Graduates"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 19,
+    "opportunity_name": "CFYE x Shecluded Incubator Programme",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Emerging female-led early-stage ventures operating in Nigeria.",
+    "key_benefits_and_rewards": "Cohort incubator entry combined with up to a ₦1 Million business grant.",
+    "required_documents": "Business Description, Founder Profile, Simple Financial Summary.",
+    "required_documents_list": [
+      "Business Description",
+      "Founder Profile",
+      "Simple Financial Summary"
+    ],
+    "application_deadline": "Rolling selection",
+    "application_url": "https://forms.gle",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 4,
+    "data_quality_notes": "Application hosted via Google Forms link.",
+    "categories": [
+      "Grants",
+      "Incubators"
+    ],
+    "eligibility_tags": [
+      "Startups",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 20,
+    "opportunity_name": "SDGs Youth Public Policy Innovation Challenge",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Young changemakers, civic innovators, and policy student groups globally.",
+    "key_benefits_and_rewards": "Policy incubation frameworks and high-level international ecosystem entry.",
+    "required_documents": "Policy Innovation Essay/Brief, Team Roster, Project Summary.",
+    "required_documents_list": [
+      "Policy Innovation Essay/Brief",
+      "Team Roster",
+      "Project Summary"
+    ],
+    "application_deadline": "Mid-November 2026",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 4,
+    "data_quality_notes": "Approximate deadline: Mid-November 2026. Application via Google Forms.",
+    "categories": [
+      "Incubators",
+      "Competitions",
+      "Research"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Young professionals",
+      "Entrepreneurs",
+      "NGOs"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 21,
+    "opportunity_name": "Women in DeFi Summit Laptop Scholarship",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Aspiring female Web3, block engineering, or DeFi developers globally.",
+    "key_benefits_and_rewards": "Provision of a free workstation laptop along with direct tech mentor tracking.",
+    "required_documents": "Motivation Statement, Proof of learning track, Identification.",
+    "required_documents_list": [
+      "Motivation Statement",
+      "Proof of learning track",
+      "Identification"
+    ],
+    "application_deadline": "Rolling review",
+    "application_url": "https://womenindefi.org/programs/initiatives",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 4,
+    "data_quality_notes": "Continuous rolling application review.",
+    "categories": [
+      "Scholarships",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Women"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 22,
+    "opportunity_name": "Standard Chartered Women in Tech Ghana",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female-owned or woman-led technological startup companies based in Ghana.",
+    "key_benefits_and_rewards": "Advanced business acceleration infrastructure along with up to $10,000 funding.",
+    "required_documents": "Company Registration Certificate, Pitch Deck, Bank Statement.",
+    "required_documents_list": [
+      "Company Registration Certificate",
+      "Pitch Deck",
+      "Bank Statement"
+    ],
+    "application_deadline": "Varies by cohort block",
+    "application_url": "https://scwomenintechgh.com/programme/",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 4,
+    "data_quality_notes": "Cohort dates vary by acceleration block.",
+    "categories": [
+      "Grants",
+      "Accelerators",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Startups",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 23,
+    "opportunity_name": "General Ibrahim Attahiru Foundation Scholarship",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Bright, high-performing young students of Nigerian nationality.",
+    "key_benefits_and_rewards": "Full academic tuition sponsorship combined with comprehensive living stipends.",
+    "required_documents": "Admission Letter, Transcripts, State of Origin ID, References.",
+    "required_documents_list": [
+      "Admission Letter",
+      "Transcripts",
+      "State of Origin ID",
+      "References"
+    ],
+    "application_deadline": "October 1, 2026",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": "2026-10-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 4,
+    "data_quality_notes": "Listed deadline was October 1, 2026. Google Forms application.",
+    "categories": [
+      "Scholarships"
+    ],
+    "eligibility_tags": [
+      "Students"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 24,
+    "opportunity_name": "L’Oréal–UNESCO For Women in Science",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female doctoral or post-doctoral research scientists from Sub-Saharan Africa.",
+    "key_benefits_and_rewards": "Direct international research fellowship funding grants valued up to €15,000.",
+    "required_documents": "Scientific Research Proposal, CV, Published Papers list.",
+    "required_documents_list": [
+      "Scientific Research Proposal",
+      "CV",
+      "Published Papers list"
+    ],
+    "application_deadline": "March 30, 2027",
+    "application_url": "https://www.forwomeninscience.com",
+    "deadline_date": "2027-03-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 4,
+    "data_quality_notes": "Record spans across Page 4 and Page 5 of the PDF; text joined cleanly.",
+    "categories": [
+      "Grants",
+      "Fellowships",
+      "Research"
+    ],
+    "eligibility_tags": [
+      "Women",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 25,
+    "opportunity_name": "Flourish Africa Business Program Cohort 5",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female business founders and SME operators in Nigeria.",
+    "key_benefits_and_rewards": "Share of a massive ₦1.3 Billion grant funding pool and business training.",
+    "required_documents": "Government ID, Business Plan, CAC Certificates.",
+    "required_documents_list": [
+      "Government ID",
+      "Business Plan",
+      "CAC Certificates"
+    ],
+    "application_deadline": "November 15, 2026",
+    "application_url": "https://oms.flourishafrica.com/auth/signup",
+    "deadline_date": "2026-11-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 5,
+    "data_quality_notes": "Listed deadline: November 15, 2026.",
+    "categories": [
+      "Grants",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 26,
+    "opportunity_name": "Sundry Markets MSMEs Growth Pitch Challenge",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Growth-oriented MSMEs operating retail or supply logistics in Nigeria.",
+    "key_benefits_and_rewards": "Share of ₦10 Million in equity-free business growth financing grants.",
+    "required_documents": "CAC Documents, Product Portfolio, 6-Month Ledger entries.",
+    "required_documents_list": [
+      "CAC Documents",
+      "Product Portfolio",
+      "6-Month Ledger entries"
+    ],
+    "application_deadline": "November 30, 2026",
+    "application_url": "https://sundrymarkets.com/pitchchallenge/",
+    "deadline_date": "2026-11-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 5,
+    "data_quality_notes": "Listed deadline: November 30, 2026.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 27,
+    "opportunity_name": "Girl Up Ubuntu Leaders Africa Program",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Aspiring young female civic and development leaders across Africa.",
+    "key_benefits_and_rewards": "Intensive African leadership training, active mentoring, and global network.",
+    "required_documents": "Essay submission, Proof of Community service, Reference.",
+    "required_documents_list": [
+      "Essay submission",
+      "Proof of Community service",
+      "Reference"
+    ],
+    "application_deadline": "November 20, 2026",
+    "application_url": "https://forms.office.com",
+    "deadline_date": "2026-11-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 5,
+    "data_quality_notes": "Listed deadline: November 20, 2026. Microsoft Forms application link.",
+    "categories": [
+      "Training",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Women",
+      "NGOs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 28,
+    "opportunity_name": "GITEX Africa Supernova Challenge",
+    "continent_or_region": "Africa / Global",
+    "eligibility_criteria": "High-growth innovative tech startups globally exhibiting or pitching at GITEX.",
+    "key_benefits_and_rewards": "Direct mainstage access to a massive $100,000 global pitch grand prize.",
+    "required_documents": "Comprehensive Corporate Pitch Deck, Product Demo Video, Cap Table.",
+    "required_documents_list": [
+      "Comprehensive Corporate Pitch Deck",
+      "Product Demo Video",
+      "Cap Table"
+    ],
+    "application_deadline": "Early 2027 entry window",
+    "application_url": "https://gitexafrica.com",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 5,
+    "data_quality_notes": "Upcoming 2027 entry cycle window.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa",
+      "Global"
+    ]
+  },
+  {
+    "id": 29,
+    "opportunity_name": "UNDP Pan-African AgriTech Incubation",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Emerging AgriTech software/hardware startups across African target hubs.",
+    "key_benefits_and_rewards": "Pan-African incubator access, tech pilot resources, and institutional support.",
+    "required_documents": "Business Registration, Functional Technical MVP, Project Plan.",
+    "required_documents_list": [
+      "Business Registration",
+      "Functional Technical MVP",
+      "Project Plan"
+    ],
+    "application_deadline": "January 20, 2027",
+    "application_url": "https://www.undp.org",
+    "deadline_date": "2027-01-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 5,
+    "data_quality_notes": "Listed deadline: January 20, 2027.",
+    "categories": [
+      "Incubators"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 30,
+    "opportunity_name": "BeautyHutAfrica Women’s Grant 2026",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female cosmetics, retail, or tech entrepreneurs in the beauty sector in Nigeria.",
+    "key_benefits_and_rewards": "Direct sector-specific growth grant deployment funds up to ₦6 Million.",
+    "required_documents": "Business Profile, CAC Incorporation proof, Store Inventory list.",
+    "required_documents_list": [
+      "Business Profile",
+      "CAC Incorporation proof",
+      "Store Inventory list"
+    ],
+    "application_deadline": "October 12, 2026",
+    "application_url": "https://grant.beautyhutafrica.com",
+    "deadline_date": "2026-10-12",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 5,
+    "data_quality_notes": "Record spans across Page 5 and Page 6 of the PDF; joined cleanly.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 31,
+    "opportunity_name": "UpGreyedHer Funding Programme",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Early-stage technology platforms globally founded by women innovators.",
+    "key_benefits_and_rewards": "Up to $5,000 in equity-free early validation corporate growth funding.",
+    "required_documents": "Product Concept Pitch, Team Overview, Financial Use-of-Funds.",
+    "required_documents_list": [
+      "Product Concept Pitch",
+      "Team Overview",
+      "Financial Use-of-Funds"
+    ],
+    "application_deadline": "December 5, 2026",
+    "application_url": "https://grey.co/upgreyedher",
+    "deadline_date": "2026-12-05",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 6,
+    "data_quality_notes": "Listed deadline: December 5, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups",
+      "Women"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 32,
+    "opportunity_name": "SDGs Campus Drive Cohort 1",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Active students enrolled in tertiary educational institutions across Nigeria.",
+    "key_benefits_and_rewards": "Structured sustainable development field training, leadership roles, and network.",
+    "required_documents": "Valid Student ID Card, Application Essay, Academic Reference.",
+    "required_documents_list": [
+      "Valid Student ID Card",
+      "Application Essay",
+      "Academic Reference"
+    ],
+    "application_deadline": "Varies by campus block",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 6,
+    "data_quality_notes": "Dates vary by participating tertiary campus.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Students"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 33,
+    "opportunity_name": "Africa Economic Scholars Programme (AESP)",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Postgraduate economics researchers and policy analysts from African nations.",
+    "key_benefits_and_rewards": "Advanced macroeconomic research support and structural policy fellowships.",
+    "required_documents": "Research Proposal, Academic Transcripts, CV, 2 Master References.",
+    "required_documents_list": [
+      "Research Proposal",
+      "Academic Transcripts",
+      "CV",
+      "2 Master References"
+    ],
+    "application_deadline": "October 15, 2026",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": "2026-10-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 6,
+    "data_quality_notes": "Listed deadline was October 15, 2026.",
+    "categories": [
+      "Fellowships",
+      "Research"
+    ],
+    "eligibility_tags": [
+      "Graduates",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 34,
+    "opportunity_name": "CleanAce Apprenticeship Program for MSMEs",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Small or medium business owners looking to optimize technical workflows.",
+    "key_benefits_and_rewards": "Structural skill transfer frameworks and institutional enterprise apprenticeship.",
+    "required_documents": "MSME Registration Verification, Business Operational Address Proof.",
+    "required_documents_list": [
+      "MSME Registration Verification",
+      "Business Operational Address Proof"
+    ],
+    "application_deadline": "November 1, 2026",
+    "application_url": "https://clickncarts.wixforms.com",
+    "deadline_date": "2026-11-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 6,
+    "data_quality_notes": "Listed deadline was November 1, 2026.",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 35,
+    "opportunity_name": "Digital Innovation Fund for Energy and Climate",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Renewable and clean-tech providers across targeted sub-Saharan countries.",
+    "key_benefits_and_rewards": "Large-scale performance development deployment grants scaled up to $400,000.",
+    "required_documents": "Feasibility Audits, Environmental Impact Plan, Corporate Accounts.",
+    "required_documents_list": [
+      "Feasibility Audits",
+      "Environmental Impact Plan",
+      "Corporate Accounts"
+    ],
+    "application_deadline": "November 20, 2026",
+    "application_url": "https://www.aecfafrica.org",
+    "deadline_date": "2026-11-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 6,
+    "data_quality_notes": "Listed deadline: November 20, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 36,
+    "opportunity_name": "Google Summer of Code (GSoC)",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Individual open-source coders and engineering students worldwide aged 18+.",
+    "key_benefits_and_rewards": "Technical development stipends ranging up to $6,000 plus certificates.",
+    "required_documents": "Open-Source Project Proposal, Code Profile Link (GitHub), Student Proof.",
+    "required_documents_list": [
+      "Open-Source Project Proposal",
+      "Code Profile Link (GitHub)",
+      "Student Proof"
+    ],
+    "application_deadline": "February 15, 2027",
+    "application_url": "https://summerofcode.withgoogle.com",
+    "deadline_date": "2027-02-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 6,
+    "data_quality_notes": "Record spans across Page 6 and Page 7 of the PDF; age 18+ requirement joined cleanly.",
+    "categories": [
+      "Scholarships"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 37,
+    "opportunity_name": "Airtel-3MTT NextGen Fellowship",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Enrolled fellows or top graduates within the Nigerian 3MTT upskilling track.",
+    "key_benefits_and_rewards": "Next-generation premium digital upskilling paths and direct employment placement.",
+    "required_documents": "3MTT Fellow Profile Verification, Technical Project Portfolio.",
+    "required_documents_list": [
+      "3MTT Fellow Profile Verification",
+      "Technical Project Portfolio"
+    ],
+    "application_deadline": "Rolling per track phase",
+    "application_url": "https://nextgen.3mttnigeria.com",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 7,
+    "data_quality_notes": "Rolling cycles structured by 3MTT training phases.",
+    "categories": [
+      "Fellowships",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Graduates",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 38,
+    "opportunity_name": "DigitalforHer Impact Award",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female civic leaders or technology entrepreneurs based in Nigeria.",
+    "key_benefits_and_rewards": "Non-dilutive tech impact community deployment financial award of ₦2,000,000.",
+    "required_documents": "Impact Essay/Report, Community Reference, Business/NGO Registration.",
+    "required_documents_list": [
+      "Impact Essay/Report",
+      "Community Reference",
+      "Business/NGO Registration"
+    ],
+    "application_deadline": "October 25, 2026",
+    "application_url": "https://miladdigiville.com",
+    "deadline_date": "2026-10-25",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 7,
+    "data_quality_notes": "Listed deadline was October 25, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "NGOs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 39,
+    "opportunity_name": "iDICE Founders Lab Programme",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Early-stage technology startups or digital software systems in Nigeria.",
+    "key_benefits_and_rewards": "Non-equity early validation product funding grants valued up to ₦7 Million.",
+    "required_documents": "CAC Documents, Technical Product Blueprint/Wireframe, Founder IDs.",
+    "required_documents_list": [
+      "CAC Documents",
+      "Technical Product Blueprint/Wireframe",
+      "Founder IDs"
+    ],
+    "application_deadline": "October 14, 2026",
+    "application_url": "https://startupbridge.ng",
+    "deadline_date": "2026-10-14",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 7,
+    "data_quality_notes": "Listed deadline was October 14, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 40,
+    "opportunity_name": "LEAP Africa Leadership Accelerator (LAP)",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Emerging young African civic and social sector development leaders.",
+    "key_benefits_and_rewards": "Free intensive online leadership course and direct three-month mentorship.",
+    "required_documents": "Personal Statement, Organization Profile, Professional Reference Letter.",
+    "required_documents_list": [
+      "Personal Statement",
+      "Organization Profile",
+      "Professional Reference Letter"
+    ],
+    "application_deadline": "September 30, 2026",
+    "application_url": "https://leapafrica.org/lap/",
+    "deadline_date": "2026-09-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 7,
+    "data_quality_notes": "Listed deadline was September 30, 2026.",
+    "categories": [
+      "Accelerators",
+      "Training",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "NGOs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 41,
+    "opportunity_name": "BBDYI National Essay Competition",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young academic writers and youth citizens residing within Nigeria.",
+    "key_benefits_and_rewards": "Cash prize recognition grants scaled up to ₦1 Million for winning ideas.",
+    "required_documents": "Formatted Essay Submission, National ID, School/LGA Verification.",
+    "required_documents_list": [
+      "Formatted Essay Submission",
+      "National ID",
+      "School/LGA Verification"
+    ],
+    "application_deadline": "October 5, 2026",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": "2026-10-05",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 7,
+    "data_quality_notes": "Listed deadline was October 5, 2026.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Young professionals",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 42,
+    "opportunity_name": "AFRISE Challenge Startup Accelerator",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Early-to-growth software tech architectures across African startup hubs.",
+    "key_benefits_and_rewards": "Allocation access to over $600,000 in unified technology/cloud credits.",
+    "required_documents": "Technical Architecture Map, Complete Pitch Slide Deck, MVP Demo.",
+    "required_documents_list": [
+      "Technical Architecture Map",
+      "Complete Pitch Slide Deck",
+      "MVP Demo"
+    ],
+    "application_deadline": "November 5, 2026",
+    "application_url": "https://hindsightventures.co",
+    "deadline_date": "2026-11-05",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 7,
+    "data_quality_notes": "Record spans across Page 7 and Page 8 of the PDF; joined cleanly. Listed deadline was November 5, 2026.",
+    "categories": [
+      "Accelerators",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 43,
+    "opportunity_name": "For Creative Girls Mentorship Program",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Aspiring female professionals and entrepreneurs in the creative arts.",
+    "key_benefits_and_rewards": "Structured professional art, design, or business industry mentorship.",
+    "required_documents": "Creative Portfolio, Statement of Purpose, Professional Resume.",
+    "required_documents_list": [
+      "Creative Portfolio",
+      "Statement of Purpose",
+      "Professional Resume"
+    ],
+    "application_deadline": "September 15, 2026",
+    "application_url": "https://forcreativegirls.com",
+    "deadline_date": "2026-09-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 8,
+    "data_quality_notes": "Listed deadline was September 15, 2026.",
+    "categories": [
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 44,
+    "opportunity_name": "IFAD Internship Program",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "University students or recent graduates under 30 in agriculture fields.",
+    "key_benefits_and_rewards": "Paid international developmental organization monthly living stipends up to $700.",
+    "required_documents": "University Transcripts, Enrolment/Graduation Proof, Cover Letter.",
+    "required_documents_list": [
+      "University Transcripts",
+      "Enrolment/Graduation Proof",
+      "Cover Letter"
+    ],
+    "application_deadline": "Rolling Intake",
+    "application_url": "https://job.ifad.org",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 8,
+    "data_quality_notes": "Continuous UN IFAD intake.",
+    "categories": [
+      "Scholarships",
+      "Internships"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Graduates",
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 45,
+    "opportunity_name": "Women in Fashion Tech (WIFT) Accelerator",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "African creative fashion small and medium businesses integrating technology.",
+    "key_benefits_and_rewards": "Specialized fashion-tech scaling tools and production design mentorship.",
+    "required_documents": "Lookbook/Portfolio, Business Registration, Growth Plan Essay.",
+    "required_documents_list": [
+      "Lookbook/Portfolio",
+      "Business Registration",
+      "Growth Plan Essay"
+    ],
+    "application_deadline": "Mid-November 2026",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 8,
+    "data_quality_notes": "Approximate deadline: Mid-November 2026.",
+    "categories": [
+      "Accelerators",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 46,
+    "opportunity_name": "WIBG Interest Fellowship Track",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Early-stage professionals looking for advanced corporate strategy skills.",
+    "key_benefits_and_rewards": "Strategic executive industry placement pipelines and career training.",
+    "required_documents": "Updated CV, Letters of Recommendation, Core Application Form.",
+    "required_documents_list": [
+      "Updated CV",
+      "Letters of Recommendation",
+      "Core Application Form"
+    ],
+    "application_deadline": "Check portal openings",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Check portal",
+    "is_past_deadline": false,
+    "deadline_status_label": "Check official portal for active cycle",
+    "source_page": 8,
+    "data_quality_notes": "Periodic portal openings.",
+    "categories": [
+      "Fellowships",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Startups",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 47,
+    "opportunity_name": "Nestlé YOUth Entrepreneurship Mentorship",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Emerging young business innovators and startup operators under 30.",
+    "key_benefits_and_rewards": "Structured enterprise corporate mentorship, resources, and career development.",
+    "required_documents": "Business Pitch Outline, CV, Academic background data.",
+    "required_documents_list": [
+      "Business Pitch Outline",
+      "CV",
+      "Academic background data"
+    ],
+    "application_deadline": "Varies by event block",
+    "application_url": "https://www.nestleyouthentrepreneurship.com",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 8,
+    "data_quality_notes": "Intake cycles vary by regional Nestlé event blocks.",
+    "categories": [
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Young professionals",
+      "Entrepreneurs",
+      "Startups"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 48,
+    "opportunity_name": "Kuda For Her Pitch Initiative",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female tech or business founders operating enterprises in Nigeria.",
+    "key_benefits_and_rewards": "Targeted business presentation pitch platforms and corporate funding tracks.",
+    "required_documents": "Business Pitch Deck, CAC Incorporation documents, Financial Summary.",
+    "required_documents_list": [
+      "Business Pitch Deck",
+      "CAC Incorporation documents",
+      "Financial Summary"
+    ],
+    "application_deadline": "Varies by sector focus",
+    "application_url": "https://kuda.com/kuda-for-her",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 8,
+    "data_quality_notes": "Record spans across Page 8 and Page 9 of the PDF; joined cleanly.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 49,
+    "opportunity_name": "Microsoft Elevate AI Developers Training",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Software engineers and data science tech builders in Nigeria.",
+    "key_benefits_and_rewards": "Completely free comprehensive AI technical training and official certification.",
+    "required_documents": "Technical coding background details, Valid National Identification.",
+    "required_documents_list": [
+      "Technical coding background details",
+      "Valid National Identification"
+    ],
+    "application_deadline": "Continuous batching",
+    "application_url": "https://datasciencenigeria.org",
+    "deadline_date": null,
+    "deadline_type": "Continuous intake",
+    "is_past_deadline": false,
+    "deadline_status_label": "Continuous intake — verify status with provider",
+    "source_page": 9,
+    "data_quality_notes": "Continuous batching cycles managed by Data Science Nigeria.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 50,
+    "opportunity_name": "ImpactHER Global African Women's Sustainability Grant",
+    "continent_or_region": "Global / Africa",
+    "eligibility_criteria": "African women running micro or small businesses focused on green practices.",
+    "key_benefits_and_rewards": "Direct sector-specific green business development grants and ecosystem lines.",
+    "required_documents": "Proof of Business Registration, Environmental Sustainability Essay.",
+    "required_documents_list": [
+      "Proof of Business Registration",
+      "Environmental Sustainability Essay"
+    ],
+    "application_deadline": "Late 2026 cut-off",
+    "application_url": "https://www.impacther.org",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 9,
+    "data_quality_notes": "Non-specific date: Late 2026 cut-off.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Women"
+    ],
+    "region_tags": [
+      "Africa",
+      "Global"
+    ]
+  },
+  {
+    "id": 51,
+    "opportunity_name": "InterswitchSPAK National Science Competition",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Secondary school science track students across Nigeria and Kenya.",
+    "key_benefits_and_rewards": "Tertiary academic scholarships and over ₦15 Million in annual stipends.",
+    "required_documents": "School Registration Profile, Academic Transcripts, Student Birth Document.",
+    "required_documents_list": [
+      "School Registration Profile",
+      "Academic Transcripts",
+      "Student Birth Document"
+    ],
+    "application_deadline": "Varies by term setup",
+    "application_url": "https://www.interswitchspak.com",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 9,
+    "data_quality_notes": "Cycles aligned with Nigerian and Kenyan school academic term calendars.",
+    "categories": [
+      "Scholarships",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Students"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 52,
+    "opportunity_name": "IVÓ WorkSmart Program Cohort 3",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Unemployed or early-career youth residents residing within Abuja, Nigeria.",
+    "key_benefits_and_rewards": "Free professional workforce readiness soft skills training and certification.",
+    "required_documents": "Abuja Resident Verification, Completed Application Essay, CV.",
+    "required_documents_list": [
+      "Abuja Resident Verification",
+      "Completed Application Essay",
+      "CV"
+    ],
+    "application_deadline": "Rolling intake",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 9,
+    "data_quality_notes": "Rolling cohort applications via Google Forms.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 53,
+    "opportunity_name": "Ilorin Innovation Hub Entrepreneurship Training",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Emerging tech and business innovators across Nigeria.",
+    "key_benefits_and_rewards": "Cash prize tracks up to ₦50 Million combined with active hub incentives.",
+    "required_documents": "Business Profile, Implementation Milestones, Founders' National IDs.",
+    "required_documents_list": [
+      "Business Profile",
+      "Implementation Milestones",
+      "Founders' National IDs"
+    ],
+    "application_deadline": "October 14, 2026",
+    "application_url": "https://learning.devbankng.com",
+    "deadline_date": "2026-10-14",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 9,
+    "data_quality_notes": "Listed deadline was October 14, 2026.",
+    "categories": [
+      "Grants",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 54,
+    "opportunity_name": "UNAOC–BMW Intercultural Innovation Hub",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Non-profit and grassroots developmental entities globally.",
+    "key_benefits_and_rewards": "Project scale-up funding support grants valued up to $200,000.",
+    "required_documents": "Non-Profit Charter, 2-Year Budget Audit, Reference Letters.",
+    "required_documents_list": [
+      "Non-Profit Charter",
+      "2-Year Budget Audit",
+      "Reference Letters"
+    ],
+    "application_deadline": "October 18, 2026",
+    "application_url": "https://interculturalinnovation.org",
+    "deadline_date": "2026-10-18",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 9,
+    "data_quality_notes": "Record spans across Page 9 and Page 10 of the PDF; joined cleanly. Listed deadline was October 18, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "NGOs"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 55,
+    "opportunity_name": "OPEC Fund for International Development Internship",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Enrolled post-graduate or Master's level development students globally.",
+    "key_benefits_and_rewards": "Multilateral development bank internship roles and financial stipends.",
+    "required_documents": "Proof of Post-Grad Enrollment, University Transcripts, CV.",
+    "required_documents_list": [
+      "Proof of Post-Grad Enrollment",
+      "University Transcripts",
+      "CV"
+    ],
+    "application_deadline": "Quarterly open cycles",
+    "application_url": "https://careers.opecfund.org",
+    "deadline_date": null,
+    "deadline_type": "Quarterly",
+    "is_past_deadline": false,
+    "deadline_status_label": "Quarterly open cycles — verify status with provider",
+    "source_page": 10,
+    "data_quality_notes": "Recurring quarterly application cycles.",
+    "categories": [
+      "Scholarships",
+      "Grants",
+      "Internships"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Graduates"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 56,
+    "opportunity_name": "Battery Pack Design and Manufacturing Training",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Engineering and science track youth looking to enter clean tech fields.",
+    "key_benefits_and_rewards": "Specialized battery design and manufacturing hardware training infrastructure.",
+    "required_documents": "Educational background certificates, Motivation Essay, National ID.",
+    "required_documents_list": [
+      "Educational background certificates",
+      "Motivation Essay",
+      "National ID"
+    ],
+    "application_deadline": "November 12, 2026",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": "2026-11-12",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 10,
+    "data_quality_notes": "Listed deadline: November 12, 2026.",
+    "categories": [
+      "Training",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 57,
+    "opportunity_name": "Katapult Africa Accelerator Cohort 3",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "High-growth climate-tech and AgriTech ventures in Africa.",
+    "key_benefits_and_rewards": "Seed venture capital investments, scaling support, and global partner lines.",
+    "required_documents": "Cap Table, Pitch Deck, Technical Architecture Docs.",
+    "required_documents_list": [
+      "Cap Table",
+      "Pitch Deck",
+      "Technical Architecture Docs"
+    ],
+    "application_deadline": "November 12, 2026",
+    "application_url": "https://katapult.vc/africa/accelerator/",
+    "deadline_date": "2026-11-12",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 10,
+    "data_quality_notes": "Listed deadline: November 12, 2026.",
+    "categories": [
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 58,
+    "opportunity_name": "TOCA Free Virtual Language Skills Program",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Global youth, international students, and early career workers.",
+    "key_benefits_and_rewards": "Free virtual foreign language mastery training (Arabic, Spanish, French).",
+    "required_documents": "Language background survey, Statement of Intent, National ID.",
+    "required_documents_list": [
+      "Language background survey",
+      "Statement of Intent",
+      "National ID"
+    ],
+    "application_deadline": "Rolling summer blocks",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 10,
+    "data_quality_notes": "Rolling summer cohort applications.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 59,
+    "opportunity_name": "ACEP Africa Climate Academy for Energy Innovators",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Clean energy tech builders and sustainability practitioners in Africa.",
+    "key_benefits_and_rewards": "Fully funded travel and training attendance week in Accra, Ghana.",
+    "required_documents": "Technical Abstract Paper, Professional Resume, Reference Letter.",
+    "required_documents_list": [
+      "Technical Abstract Paper",
+      "Professional Resume",
+      "Reference Letter"
+    ],
+    "application_deadline": "November 30, 2026",
+    "application_url": "https://acep.africa",
+    "deadline_date": "2026-11-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 10,
+    "data_quality_notes": "Listed deadline: November 30, 2026.",
+    "categories": [
+      "Grants",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 60,
+    "opportunity_name": "Lagos State Graduate Internship Placement (GIPP)",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Unemployed tertiary graduates who are residents of Lagos State, Nigeria.",
+    "key_benefits_and_rewards": "Direct corporate paid professional work placement alongside monthly stipends.",
+    "required_documents": "LASRRA Card copy, Degree Certificate, NYSC Discharge Paper.",
+    "required_documents_list": [
+      "LASRRA Card copy",
+      "Degree Certificate",
+      "NYSC Discharge Paper"
+    ],
+    "application_deadline": "Varies by batch block",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 10,
+    "data_quality_notes": "Record spans across Page 10 and Page 11 of the PDF; joined cleanly.",
+    "categories": [
+      "Scholarships",
+      "Internships"
+    ],
+    "eligibility_tags": [
+      "Graduates"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 61,
+    "opportunity_name": "Micsion Global Scholarship & Fellowship",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "High-performing undergraduate or postgraduate students worldwide.",
+    "key_benefits_and_rewards": "Direct non-restricted financial academic scholarship grant of $1,000.",
+    "required_documents": "Current Transcripts, Statement of Purpose, Two Reference Letters.",
+    "required_documents_list": [
+      "Current Transcripts",
+      "Statement of Purpose",
+      "Two Reference Letters"
+    ],
+    "application_deadline": "October 1, 2026",
+    "application_url": "https://www.micsion.com",
+    "deadline_date": "2026-10-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 11,
+    "data_quality_notes": "Listed deadline was October 1, 2026.",
+    "categories": [
+      "Scholarships",
+      "Grants",
+      "Fellowships"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Graduates",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 62,
+    "opportunity_name": "Bayer Foundation Women Entrepreneurs Award",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Female founders leading high-impact health, food, or climate ventures.",
+    "key_benefits_and_rewards": "Cash grant prize award of €25,000 plus global scaling exposure.",
+    "required_documents": "Incorporation Document, Business Growth Strategy, Pitch Deck.",
+    "required_documents_list": [
+      "Incorporation Document",
+      "Business Growth Strategy",
+      "Pitch Deck"
+    ],
+    "application_deadline": "January 10, 2027",
+    "application_url": "https://bayer-foundation.com",
+    "deadline_date": "2027-01-10",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 11,
+    "data_quality_notes": "Listed deadline: January 10, 2027.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups",
+      "Women"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 63,
+    "opportunity_name": "Tiwa Savage Intensive Music Program",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Emerging independent vocalists, music writers, and creative artists in Africa.",
+    "key_benefits_and_rewards": "Technical music business management training and creative bootcamp.",
+    "required_documents": "Audio/Video Performance Link, Creative Bio, Statement of Intent.",
+    "required_documents_list": [
+      "Audio/Video Performance Link",
+      "Creative Bio",
+      "Statement of Intent"
+    ],
+    "application_deadline": "Late 2026 cycle review",
+    "application_url": "https://tiwasavagemusicfoundation.org",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 11,
+    "data_quality_notes": "Late 2026 cycle review window.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 64,
+    "opportunity_name": "NYDA Free Generative AI Training",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Youth citizens based inside South Africa looking to learn AI engineering.",
+    "key_benefits_and_rewards": "Free technical machine learning training and formal tech certification.",
+    "required_documents": "Valid South African ID copy, Basic educational transcripts.",
+    "required_documents_list": [
+      "Valid South African ID copy",
+      "Basic educational transcripts"
+    ],
+    "application_deadline": "Rolling intake",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 11,
+    "data_quality_notes": "Ongoing rolling intake for South African youth.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 65,
+    "opportunity_name": "NLNG Prize For Science: AI And Digital Innovation",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Innovators, research scientists, and developers worldwide.",
+    "key_benefits_and_rewards": "Major global scientific innovation cash grand prize of $100,000.",
+    "required_documents": "Scientific Paper, Peer Review Documents, Prototype Blueprint.",
+    "required_documents_list": [
+      "Scientific Paper",
+      "Peer Review Documents",
+      "Prototype Blueprint"
+    ],
+    "application_deadline": "January 31, 2027",
+    "application_url": "https://www.thenigeriaprizes.org",
+    "deadline_date": "2027-01-31",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 11,
+    "data_quality_notes": "Listed deadline: January 31, 2027.",
+    "categories": [
+      "Grants",
+      "Research"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 66,
+    "opportunity_name": "NLNG Nigeria Prize for Creative Arts",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Filmmakers, content developers, and documentary creators in Nigeria.",
+    "key_benefits_and_rewards": "Dedicated documentary filmmaking production funding grant of $20,000.",
+    "required_documents": "Script/Treatment Paper, Production Budget, Creative Portfolio.",
+    "required_documents_list": [
+      "Script/Treatment Paper",
+      "Production Budget",
+      "Creative Portfolio"
+    ],
+    "application_deadline": "December 1, 2026",
+    "application_url": "https://www.thenigeriaprizes.org",
+    "deadline_date": "2026-12-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 11,
+    "data_quality_notes": "Listed deadline: December 1, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 67,
+    "opportunity_name": "NYFF Youth Leadership Development Fund Grant",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Youth-led community organizations and social tech entities in Nigeria.",
+    "key_benefits_and_rewards": "Direct community transformation project funding grants up to $50,000.",
+    "required_documents": "Certificate of Incorporation, 12-Month Project Plan, Financials.",
+    "required_documents_list": [
+      "Certificate of Incorporation",
+      "12-Month Project Plan",
+      "Financials"
+    ],
+    "application_deadline": "October 28, 2026",
+    "application_url": "https://nigeriayouthfund.org",
+    "deadline_date": "2026-10-28",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 12,
+    "data_quality_notes": "Listed deadline was October 28, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Young professionals",
+      "NGOs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 68,
+    "opportunity_name": "CcHub–Mastercard Foundation EdTech Fellowship",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "EdTech startups across Africa scaling education accessibility tech tools.",
+    "key_benefits_and_rewards": "$100,000 in equity-free product development co-investment funding.",
+    "required_documents": "Incorporation verification, Product MVP Demo link, Pitch Deck.",
+    "required_documents_list": [
+      "Incorporation verification",
+      "Product MVP Demo link",
+      "Pitch Deck"
+    ],
+    "application_deadline": "January 20, 2027",
+    "application_url": "https://futureoflearning.cchub.africa",
+    "deadline_date": "2027-01-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 12,
+    "data_quality_notes": "Listed deadline: January 20, 2027.",
+    "categories": [
+      "Grants",
+      "Fellowships"
+    ],
+    "eligibility_tags": [
+      "Startups",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 69,
+    "opportunity_name": "Green Assist 2026 Advisory Support",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Small and medium environmental investment project entities in Europe.",
+    "key_benefits_and_rewards": "€3 Million total pool for strategic green advisory support services.",
+    "required_documents": "Project Environmental Analysis, Corporate Operational Charter.",
+    "required_documents_list": [
+      "Project Environmental Analysis",
+      "Corporate Operational Charter"
+    ],
+    "application_deadline": "Continuous intake",
+    "application_url": "https://cinea.ec.europa.eu",
+    "deadline_date": null,
+    "deadline_type": "Continuous intake",
+    "is_past_deadline": false,
+    "deadline_status_label": "Continuous intake — verify status with provider",
+    "source_page": 12,
+    "data_quality_notes": "Ongoing EU CINEA Green Assist continuous intake.",
+    "categories": [
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 70,
+    "opportunity_name": "Mastercard Foundation FAST Program 2026",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Verified alumni entrepreneurs from the Mastercard Foundation networks.",
+    "key_benefits_and_rewards": "Direct structural transition and scale-up funding up to $15,000.",
+    "required_documents": "Alumni Identification Proof, Business Growth Strategy Paper.",
+    "required_documents_list": [
+      "Alumni Identification Proof",
+      "Business Growth Strategy Paper"
+    ],
+    "application_deadline": "Cohort windows",
+    "application_url": "https://mastercardfdn.org",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 12,
+    "data_quality_notes": "Targeted cohort intake windows for alumni entrepreneurs.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Graduates",
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 71,
+    "opportunity_name": "The Plus Factor Grant Program",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Growing retail, logistics, or technology ventures operating in Nigeria.",
+    "key_benefits_and_rewards": "Up to ₦1,000,000 in non-dilutive business growth funding grants.",
+    "required_documents": "Business Pitch Deck, CAC Incorporation documents, Bank Records.",
+    "required_documents_list": [
+      "Business Pitch Deck",
+      "CAC Incorporation documents",
+      "Bank Records"
+    ],
+    "application_deadline": "November 15, 2026",
+    "application_url": "https://plusincubationhub.com/application.html",
+    "deadline_date": "2026-11-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 12,
+    "data_quality_notes": "Listed deadline: November 15, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 72,
+    "opportunity_name": "UniPods AI Solutions for African Program",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young AI software builders and technical hardware architects in Africa.",
+    "key_benefits_and_rewards": "Fully funded 12-Month intensive AI innovation and computing journey.",
+    "required_documents": "Open-Source Code Profile (GitHub), Technical Project Brief.",
+    "required_documents_list": [
+      "Open-Source Code Profile (GitHub)",
+      "Technical Project Brief"
+    ],
+    "application_deadline": "December 10, 2026",
+    "application_url": "https://weblab.t.u-tokyo.ac.jp",
+    "deadline_date": "2026-12-10",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 12,
+    "data_quality_notes": "Listed deadline: December 10, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 73,
+    "opportunity_name": "ImpactHER / African Union Women Conference",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female business entrepreneurs managing trade entities across Africa.",
+    "key_benefits_and_rewards": "High-level continental ecosystem alignment and cross-border trade training.",
+    "required_documents": "Government ID, Business operations sheet, Registration verification.",
+    "required_documents_list": [
+      "Government ID",
+      "Business operations sheet",
+      "Registration verification"
+    ],
+    "application_deadline": "Late 2026 cut-off",
+    "application_url": "https://bit.ly/4qJInES",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 12,
+    "data_quality_notes": "Record spans across Page 12 and Page 13 of the PDF; joined cleanly.",
+    "categories": [
+      "Training",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 74,
+    "opportunity_name": "AEDIB Joint Innovation Facility (JIF)",
+    "continent_or_region": "Africa / Europe",
+    "eligibility_criteria": "Collaborative digital innovation pilots between African and European hubs.",
+    "key_benefits_and_rewards": "Up to €200,000 in non-dilutive innovation deployment grant funding.",
+    "required_documents": "Consortium Agreement, Technical Blueprints, Financial budget.",
+    "required_documents_list": [
+      "Consortium Agreement",
+      "Technical Blueprints",
+      "Financial budget"
+    ],
+    "application_deadline": "January 15, 2027",
+    "application_url": "https://jif.grantplatform.com",
+    "deadline_date": "2027-01-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 13,
+    "data_quality_notes": "Listed deadline: January 15, 2027.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa",
+      "Europe"
+    ]
+  },
+  {
+    "id": 75,
+    "opportunity_name": "Development Bank of Nigeria (DBN) Accelerator",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Registered MSMEs operating within multiple commercial sectors in Nigeria.",
+    "key_benefits_and_rewards": "Comprehensive capacity building masterclasses and business scale grants.",
+    "required_documents": "CAC Documents, Tax Clearance, 6-Month Corporate Statements.",
+    "required_documents_list": [
+      "CAC Documents",
+      "Tax Clearance",
+      "6-Month Corporate Statements"
+    ],
+    "application_deadline": "October 14, 2026",
+    "application_url": "https://learning.devbankng.com",
+    "deadline_date": "2026-10-14",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 13,
+    "data_quality_notes": "Listed deadline was October 14, 2026.",
+    "categories": [
+      "Grants",
+      "Accelerators",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 76,
+    "opportunity_name": "WE Empower UN SDG Challenge 2026",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Female business owners globally advancing Sustainable Development Goals.",
+    "key_benefits_and_rewards": "Elite international pitch coaching, summit travel, and network access.",
+    "required_documents": "Documented Impact Metrics, Pitch Deck, Two Reference Letters.",
+    "required_documents_list": [
+      "Documented Impact Metrics",
+      "Pitch Deck",
+      "Two Reference Letters"
+    ],
+    "application_deadline": "October 10, 2026",
+    "application_url": "https://globalfutures.asu.edu",
+    "deadline_date": "2026-10-10",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 13,
+    "data_quality_notes": "Listed deadline was October 10, 2026.",
+    "categories": [
+      "Competitions",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 77,
+    "opportunity_name": "Google for Startups Accelerator Africa",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Seed-to-growth technology startups using Machine Learning or AI.",
+    "key_benefits_and_rewards": "3-Month equity-free hybrid accelerator access and $100k Cloud credits.",
+    "required_documents": "Pitch Slide Deck, Technical Architecture Whitepaper, Cap Table.",
+    "required_documents_list": [
+      "Pitch Slide Deck",
+      "Technical Architecture Whitepaper",
+      "Cap Table"
+    ],
+    "application_deadline": "February 28, 2027",
+    "application_url": "https://startup.google.com/programs/accelerator/africa/",
+    "deadline_date": "2027-02-28",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 13,
+    "data_quality_notes": "Listed deadline: February 28, 2027.",
+    "categories": [
+      "Grants",
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 78,
+    "opportunity_name": "BOI x Bumpa Free Digital Business Tools",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young retail or tech-driven entrepreneurs operating in Nigeria.",
+    "key_benefits_and_rewards": "Free premium 6-month digital enterprise inventory management tools.",
+    "required_documents": "Business Operational Details, National Identification, Store Profile.",
+    "required_documents_list": [
+      "Business Operational Details",
+      "National Identification",
+      "Store Profile"
+    ],
+    "application_deadline": "Continuous rolling",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 13,
+    "data_quality_notes": "Ongoing continuous intake via Google Forms.",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 79,
+    "opportunity_name": "FG TVET Initiative Program for Trainers",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Technical and vocational education trainers based inside Nigeria.",
+    "key_benefits_and_rewards": "Technical monthly stipend support along with systemic training equipment.",
+    "required_documents": "TVET Institutional Affiliation Proof, Identification, CV.",
+    "required_documents_list": [
+      "TVET Institutional Affiliation Proof",
+      "Identification",
+      "CV"
+    ],
+    "application_deadline": "Rolling cycle batches",
+    "application_url": "https://www.digitalnbte.nbte.gov.ng",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 13,
+    "data_quality_notes": "Record spans across Page 13 and Page 14 of the PDF; joined cleanly.",
+    "categories": [
+      "Scholarships",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 80,
+    "opportunity_name": "Renewed Hope Smallholder Value-Chain Fund",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Verified smallholder farmers and agricultural co-operatives in Nigeria.",
+    "key_benefits_and_rewards": "Direct structural funding allocations and agrifood value-chain credits.",
+    "required_documents": "Farming Land Coordinates, Local Ag Co-op Charter, National ID.",
+    "required_documents_list": [
+      "Farming Land Coordinates",
+      "Local Ag Co-op Charter",
+      "National ID"
+    ],
+    "application_deadline": "October 20, 2026",
+    "application_url": "https://boanig.com/rh-shf/",
+    "deadline_date": "2026-10-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 14,
+    "data_quality_notes": "Listed deadline was October 20, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 81,
+    "opportunity_name": "$1 Million Startup World Cup at RegTech Africa",
+    "continent_or_region": "Global / Africa",
+    "eligibility_criteria": "Innovative regulatory tech, fintech, or cyber startups globally.",
+    "key_benefits_and_rewards": "Regional pitch track access to the global $1 Million investment final.",
+    "required_documents": "Complete Enterprise Pitch Deck, Technical MVP Demo, Cap Table.",
+    "required_documents_list": [
+      "Complete Enterprise Pitch Deck",
+      "Technical MVP Demo",
+      "Cap Table"
+    ],
+    "application_deadline": "Early 2027 cycle",
+    "application_url": "https://regtechafricaconference.com",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 14,
+    "data_quality_notes": "Early 2027 pitch cycle.",
+    "categories": [
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Africa",
+      "Global"
+    ]
+  },
+  {
+    "id": 82,
+    "opportunity_name": "FATE Foundation AI Upskilling Programme",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Educators and administration staff in Higher Education across Africa.",
+    "key_benefits_and_rewards": "Advanced digital implementation tools and AI skills training tracks.",
+    "required_documents": "Institutional Verification Letter, Professional CV, Academic Bio.",
+    "required_documents_list": [
+      "Institutional Verification Letter",
+      "Professional CV",
+      "Academic Bio"
+    ],
+    "application_deadline": "November 1, 2026",
+    "application_url": "https://fatefoundation.org",
+    "deadline_date": "2026-11-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 14,
+    "data_quality_notes": "Listed deadline was November 1, 2026.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 83,
+    "opportunity_name": "iF Social Impact Prize 2026",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Non-profits, corporate design entities, and social enterprises globally.",
+    "key_benefits_and_rewards": "Continuous access to a share of a €100,000 global grant prize pool.",
+    "required_documents": "High-Resolution Project Media, Budget Outline, Impact Metrics.",
+    "required_documents_list": [
+      "High-Resolution Project Media",
+      "Budget Outline",
+      "Impact Metrics"
+    ],
+    "application_deadline": "Semi-Annual Deadlines",
+    "application_url": "https://ifdesign.com",
+    "deadline_date": null,
+    "deadline_type": "Annual or recurring",
+    "is_past_deadline": false,
+    "deadline_status_label": "Recurring / Semi-annual cycle — verify status with provider",
+    "source_page": 14,
+    "data_quality_notes": "Recurring semi-annual grant cycle.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "NGOs",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 84,
+    "opportunity_name": "Africa Business Concept Challenge 2026",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Registered student teams from recognized tertiary institutions in Africa.",
+    "key_benefits_and_rewards": "Virtual business strategy competition tracks and academic cash awards.",
+    "required_documents": "Team Roster, University Enrollment Proof, Concept Summary Paper.",
+    "required_documents_list": [
+      "Team Roster",
+      "University Enrollment Proof",
+      "Concept Summary Paper"
+    ],
+    "application_deadline": "October 18, 2026",
+    "application_url": "https://gbsn.org/africachallenge/",
+    "deadline_date": "2026-10-18",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 14,
+    "data_quality_notes": "Listed deadline was October 18, 2026.",
+    "categories": [
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Students"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 85,
+    "opportunity_name": "UNHCR Innovation Fellowship 2026",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Humanitarian practitioners, researchers, and innovation builders globally.",
+    "key_benefits_and_rewards": "Structured multi-month internal and external system learning labs.",
+    "required_documents": "Solution Abstract Paper, Work Portfolio, Management Authorization.",
+    "required_documents_list": [
+      "Solution Abstract Paper",
+      "Work Portfolio",
+      "Management Authorization"
+    ],
+    "application_deadline": "November 22, 2026",
+    "application_url": "https://www.unhcr.org",
+    "deadline_date": "2026-11-22",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 14,
+    "data_quality_notes": "Record spans across Page 14 and Page 15 of the PDF; joined cleanly. Listed deadline: November 22, 2026.",
+    "categories": [
+      "Fellowships"
+    ],
+    "eligibility_tags": [
+      "Researchers",
+      "NGOs"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 86,
+    "opportunity_name": "Digital Xpress 2.0 Business Mums Edition",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Entrepreneurial mothers running registered micro-businesses in Nigeria.",
+    "key_benefits_and_rewards": "Direct business growth micro-grant financing valued at ₦1,000,000.",
+    "required_documents": "CAC Micro-Business Registration, Store Portfolio, Identification.",
+    "required_documents_list": [
+      "CAC Micro-Business Registration",
+      "Store Portfolio",
+      "Identification"
+    ],
+    "application_deadline": "October 24, 2026",
+    "application_url": "https://docs.google.com/forms",
+    "deadline_date": "2026-10-24",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 15,
+    "data_quality_notes": "Listed deadline was October 24, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 87,
+    "opportunity_name": "QS ImpACT Skills Challenge 2026",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Young community leaders and student project operators worldwide.",
+    "key_benefits_and_rewards": "Direct technical global community transformation award of $2,000.",
+    "required_documents": "Project Execution Report, Metric Sheet, Group Verification.",
+    "required_documents_list": [
+      "Project Execution Report",
+      "Metric Sheet",
+      "Group Verification"
+    ],
+    "application_deadline": "Late 2026 cut-off",
+    "application_url": "https://qsimpact.org/skillschallenge/",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 15,
+    "data_quality_notes": "Late 2026 cut-off window.",
+    "categories": [
+      "Competitions",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "NGOs"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 88,
+    "opportunity_name": "FAO Internship Program 2026",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Postgraduate or economics students focusing on international agriculture.",
+    "key_benefits_and_rewards": "Monthly paid international developmental stipends ranging up to $700.",
+    "required_documents": "Proof of University Enrollment, CV, English Cover Letter.",
+    "required_documents_list": [
+      "Proof of University Enrollment",
+      "CV",
+      "English Cover Letter"
+    ],
+    "application_deadline": "Rolling Intake",
+    "application_url": "https://jobs.fao.org",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 15,
+    "data_quality_notes": "UN FAO rolling internship intake.",
+    "categories": [
+      "Scholarships",
+      "Internships"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Graduates"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 89,
+    "opportunity_name": "Dev-Afrique Development Advisors Agriculture Fellow",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young professionals holding degrees in Agricultural Economics.",
+    "key_benefits_and_rewards": "Paid professional development economics research fellowship position.",
+    "required_documents": "Transcripts, Core Writing Sample, CV, Two Academic References.",
+    "required_documents_list": [
+      "Transcripts",
+      "Core Writing Sample",
+      "CV",
+      "Two Academic References"
+    ],
+    "application_deadline": "October 15, 2026",
+    "application_url": "https://devafrique.com",
+    "deadline_date": "2026-10-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 15,
+    "data_quality_notes": "Listed deadline was October 15, 2026.",
+    "categories": [
+      "Fellowships",
+      "Research"
+    ],
+    "eligibility_tags": [
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 90,
+    "opportunity_name": "Federal Government Enterprise Loan (GEEP)",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Micro-entrepreneurs, artisans, and petty traders within Nigeria.",
+    "key_benefits_and_rewards": "₦300,000 completely interest-free micro capital business loans.",
+    "required_documents": "NIN Card copy, Verified BVN, Local Trade Association Endorsement.",
+    "required_documents_list": [
+      "NIN Card copy",
+      "Verified BVN",
+      "Local Trade Association Endorsement"
+    ],
+    "application_deadline": "Continuous rolling",
+    "application_url": "https://geep.nsipa.gov.ng",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 15,
+    "data_quality_notes": "Ongoing continuous intake under NSIPA.",
+    "categories": [
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 91,
+    "opportunity_name": "World Food Prize Foundation Innovate for Impact",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "AgTech developers, biological scientists, and crop researchers globally.",
+    "key_benefits_and_rewards": "Direct innovation cash grant prizes ranging from $50,000 to $65,000.",
+    "required_documents": "Trial Data Records, Scientific Whitepaper, 2 Peer Endorsements.",
+    "required_documents_list": [
+      "Trial Data Records",
+      "Scientific Whitepaper",
+      "2 Peer Endorsements"
+    ],
+    "application_deadline": "December 10, 2026",
+    "application_url": "https://www.worldfoodprize.org",
+    "deadline_date": "2026-12-10",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 15,
+    "data_quality_notes": "Record spans Page 15 and Page 16 (trailing punctuation). Listed deadline: December 10, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Researchers"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 92,
+    "opportunity_name": "Mastercard Scale Women Entrepreneurs Challenge",
+    "continent_or_region": "Global / Africa",
+    "eligibility_criteria": "Growth-stage female-owned small and medium enterprises globally.",
+    "key_benefits_and_rewards": "Core enterprise scaling digital infrastructure and market validation tools.",
+    "required_documents": "Company Profile, Multi-Year Financial Ledger, Growth Plan.",
+    "required_documents_list": [
+      "Company Profile",
+      "Multi-Year Financial Ledger",
+      "Growth Plan"
+    ],
+    "application_deadline": "Varies by cohort block",
+    "application_url": "https://www.jotform.com",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 16,
+    "data_quality_notes": "Dates vary by global challenge cohort.",
+    "categories": [
+      "Competitions",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Africa",
+      "Global"
+    ]
+  },
+  {
+    "id": 93,
+    "opportunity_name": "Goldman Sachs 10,000 Women Entrepreneurs",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Female business owners worldwide running established business models.",
+    "key_benefits_and_rewards": "Completely free elite business skills, finance strategy, and execution tuition.",
+    "required_documents": "Business Operational Records, ID, Basic Company Bio.",
+    "required_documents_list": [
+      "Business Operational Records",
+      "ID",
+      "Basic Company Bio"
+    ],
+    "application_deadline": "Continuous access",
+    "application_url": "https://www.coursera.org",
+    "deadline_date": null,
+    "deadline_type": "Continuous intake",
+    "is_past_deadline": false,
+    "deadline_status_label": "Continuous intake — verify status with provider",
+    "source_page": 16,
+    "data_quality_notes": "Continuous open access via Coursera.",
+    "categories": [
+      "Scholarships",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 94,
+    "opportunity_name": "BOI × MTN ₦1 Billion Y’ellopreneur 3.0 Fund",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Female entrepreneurs in manufacturing or agro-processing in Nigeria.",
+    "key_benefits_and_rewards": "Strategic equipment loan matching access from a ₦1 Billion funding pool.",
+    "required_documents": "CAC Registration, Tax Compliance ID, Audited Ledger, 2 Guarantors.",
+    "required_documents_list": [
+      "CAC Registration",
+      "Tax Compliance ID",
+      "Audited Ledger",
+      "2 Guarantors"
+    ],
+    "application_deadline": "November 5, 2026",
+    "application_url": "https://www.boi.ng",
+    "deadline_date": "2026-11-05",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 16,
+    "data_quality_notes": "Listed deadline was November 5, 2026.",
+    "categories": [
+      "Grants",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 95,
+    "opportunity_name": "SIA Startup Foundry Cohort 3",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Pre-seed or early validation technology entrepreneurs globally.",
+    "key_benefits_and_rewards": "Direct non-dilutive product proof-of-concept grant funding of $10,000.",
+    "required_documents": "Product Mockup/Demo, Cap Table, Business Model Summary.",
+    "required_documents_list": [
+      "Product Mockup/Demo",
+      "Cap Table",
+      "Business Model Summary"
+    ],
+    "application_deadline": "November 30, 2026",
+    "application_url": "https://siafdn.org/startup-foundry",
+    "deadline_date": "2026-11-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 16,
+    "data_quality_notes": "Listed deadline: November 30, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 96,
+    "opportunity_name": "Fidelity Bank HerFidelity Apprenticeship",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young female graduates in Nigeria interested in financial services.",
+    "key_benefits_and_rewards": "Structured corporate banking track vocational apprenticeship and scaling.",
+    "required_documents": "Degree Transcript, CV, Cover Letter, National ID copy.",
+    "required_documents_list": [
+      "Degree Transcript",
+      "CV",
+      "Cover Letter",
+      "National ID copy"
+    ],
+    "application_deadline": "Rolling cohort blocks",
+    "application_url": "https://fidelitybank.ng",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 16,
+    "data_quality_notes": "Rolling cohort intakes.",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "Graduates",
+      "Women"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 97,
+    "opportunity_name": "EY Technology Talent Program 2026",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young technology and engineering graduates based in Nigeria.",
+    "key_benefits_and_rewards": "Monthly paid stipend, tech training masterclasses, and corporate jobs.",
+    "required_documents": "CV, Academic transcripts, Proof of coding/tech track knowledge.",
+    "required_documents_list": [
+      "CV",
+      "Academic transcripts",
+      "Proof of coding/tech track knowledge"
+    ],
+    "application_deadline": "Continuous screening",
+    "application_url": "https://eyglobal.yello.co",
+    "deadline_date": null,
+    "deadline_type": "Continuous intake",
+    "is_past_deadline": false,
+    "deadline_status_label": "Continuous intake — verify status with provider",
+    "source_page": 16,
+    "data_quality_notes": "Continuous candidate screening pipeline.",
+    "categories": [
+      "Scholarships",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Graduates"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 98,
+    "opportunity_name": "Iris Prize for Youth-Led Nature Projects",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Young environmentalists and climate changemakers under 25 globally.",
+    "key_benefits_and_rewards": "Direct project deployment grant funding allocations up to $15,000.",
+    "required_documents": "Climate Project Action Plan, Operational Budget, Reference Letter.",
+    "required_documents_list": [
+      "Climate Project Action Plan",
+      "Operational Budget",
+      "Reference Letter"
+    ],
+    "application_deadline": "September 15, 2026",
+    "application_url": "https://theirisproject.org/how-to-apply",
+    "deadline_date": "2026-09-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 17,
+    "data_quality_notes": "Listed deadline was September 15, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Young professionals"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 99,
+    "opportunity_name": "Jerry Eze Foundation Business & Entrepreneurship Grant",
+    "continent_or_region": "Africa / Global",
+    "eligibility_criteria": "Micro, small, or medium business founders across multiple sectors.",
+    "key_benefits_and_rewards": "Access to financial scaling grant options from a $300,000 pool.",
+    "required_documents": "Business Plan, Proof of current operations, Identity Verification.",
+    "required_documents_list": [
+      "Business Plan",
+      "Proof of current operations",
+      "Identity Verification"
+    ],
+    "application_deadline": "Cohort windows",
+    "application_url": "https://www.jerryezefoundation.org/home",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 17,
+    "data_quality_notes": "Application opens across scheduled cohort windows.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa",
+      "Global"
+    ]
+  },
+  {
+    "id": 100,
+    "opportunity_name": "BATN Foundation Graduate Agripreneur Program (GAP)",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Young Nigerian agriculture graduates managing active agribusiness farms.",
+    "key_benefits_and_rewards": "Share of a comprehensive ₦22 Million agricultural scale grant pool.",
+    "required_documents": "Agribusiness Registration, Farm Pictures/Coordinates, Degree Copy.",
+    "required_documents_list": [
+      "Agribusiness Registration",
+      "Farm Pictures/Coordinates",
+      "Degree Copy"
+    ],
+    "application_deadline": "October 20, 2026",
+    "application_url": "https://www.batnf.net/wealthishere/gap",
+    "deadline_date": "2026-10-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 17,
+    "data_quality_notes": "Listed deadline was October 20, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Graduates",
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 101,
+    "opportunity_name": "Climate Launchpad For Green Business",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Early-stage green tech and sustainability concept innovators globally.",
+    "key_benefits_and_rewards": "Fully funded travel competition trip to the international finals in Singapore.",
+    "required_documents": "Sustainable Project Summary, Core Use-of-Technology Essay.",
+    "required_documents_list": [
+      "Sustainable Project Summary",
+      "Core Use-of-Technology Essay"
+    ],
+    "application_deadline": "Varies by country track",
+    "application_url": "https://climatelaunchpad.org",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 17,
+    "data_quality_notes": "National competition deadlines vary by participant country.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 102,
+    "opportunity_name": "Grooming Endowment Trust (GET) Scholarship",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Exceptional high-performing undergraduates inside Nigerian universities.",
+    "key_benefits_and_rewards": "Full scholarship coverage (comprising tuition, housing, and stipends).",
+    "required_documents": "University Admission Letter, Transcripts, Proof of financial need.",
+    "required_documents_list": [
+      "University Admission Letter",
+      "Transcripts",
+      "Proof of financial need"
+    ],
+    "application_deadline": "Varies by session",
+    "application_url": "https://amadeus.edu.ng",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 17,
+    "data_quality_notes": "Aligned with university academic session cycles.",
+    "categories": [
+      "Scholarships"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Graduates"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 103,
+    "opportunity_name": "Africa’s Business Heroes For Entrepreneurs",
+    "continent_or_region": "Africa",
+    "eligibility_criteria": "Business founders from all African countries operating for 3+ years.",
+    "key_benefits_and_rewards": "Share of a massive non-equity $1.5 Million prize grant funding pool.",
+    "required_documents": "Audited Accounts, Passport/ID, CAC Documents, Pitch Video.",
+    "required_documents_list": [
+      "Audited Accounts",
+      "Passport/ID",
+      "CAC Documents",
+      "Pitch Video"
+    ],
+    "application_deadline": "May 10, 2027",
+    "application_url": "https://africabusinessheroes.org/en/register",
+    "deadline_date": "2027-05-10",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 17,
+    "data_quality_notes": "Listed deadline: May 10, 2027.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Africa"
+    ]
+  },
+  {
+    "id": 104,
+    "opportunity_name": "Y Combinator Accelerator (S26/W27)",
+    "continent_or_region": "Americas / Global",
+    "eligibility_criteria": "Tech startups globally ready to build international software structures.",
+    "key_benefits_and_rewards": "$500,000 standard investment financing terms and elite VC network access.",
+    "required_documents": "Application Questionnaire, Code Demo Video, Founders' Resumes.",
+    "required_documents_list": [
+      "Application Questionnaire",
+      "Code Demo Video",
+      "Founders' Resumes"
+    ],
+    "application_deadline": "Late 2026 window",
+    "application_url": "https://www.ycombinator.com",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 18,
+    "data_quality_notes": "Standard YC batch application window for Summer 2026 / Winter 2027.",
+    "categories": [
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Global",
+      "Americas"
+    ]
+  },
+  {
+    "id": 105,
+    "opportunity_name": "Station F Founders Program",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Disruptive early-stage digital software or tech product ventures globally.",
+    "key_benefits_and_rewards": "Dedicated incubation space placement in Paris and public resource access.",
+    "required_documents": "Digital Pitch Slide Deck, Prototyping Summary, Team Passports.",
+    "required_documents_list": [
+      "Digital Pitch Slide Deck",
+      "Prototyping Summary",
+      "Team Passports"
+    ],
+    "application_deadline": "October 1, 2026",
+    "application_url": "https://stationf.co",
+    "deadline_date": "2026-10-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 18,
+    "data_quality_notes": "Listed deadline was October 1, 2026.",
+    "categories": [
+      "Incubators"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 106,
+    "opportunity_name": "Techstars Everywhere & Regional Funds",
+    "continent_or_region": "Global / Americas",
+    "eligibility_criteria": "Seed-stage technology startups with an active working prototype or MVP.",
+    "key_benefits_and_rewards": "$120,000 funding injection combined with world-class mentorship.",
+    "required_documents": "Pitch Deck, Financial Cap Table, Product Demonstration Link.",
+    "required_documents_list": [
+      "Pitch Deck",
+      "Financial Cap Table",
+      "Product Demonstration Link"
+    ],
+    "application_deadline": "Varies by city cohort",
+    "application_url": "https://www.techstars.com",
+    "deadline_date": null,
+    "deadline_type": "Varies by cohort",
+    "is_past_deadline": false,
+    "deadline_status_label": "Varies by cohort/session — verify status with provider",
+    "source_page": 18,
+    "data_quality_notes": "Intake dates vary by specific city and regional Techstars accelerator accelerator.",
+    "categories": [
+      "Grants",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Global",
+      "Americas"
+    ]
+  },
+  {
+    "id": 107,
+    "opportunity_name": "Antler Asia-Pacific Cohorts",
+    "continent_or_region": "Asia",
+    "eligibility_criteria": "Exceptional tech talents and pre-seed ventures based in Southeast Asia.",
+    "key_benefits_and_rewards": "Pre-seed equity financing paths ranging from $100,000 to $150,000.",
+    "required_documents": "Founder Profiles, Technical Portfolio Link, Executive Summary.",
+    "required_documents_list": [
+      "Founder Profiles",
+      "Technical Portfolio Link",
+      "Executive Summary"
+    ],
+    "application_deadline": "Rolling hub deadlines",
+    "application_url": "https://www.antler.co",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 18,
+    "data_quality_notes": "Rolling deadlines across Antler's regional Asian hubs (Singapore, Jakarta, etc.).",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Asia"
+    ]
+  },
+  {
+    "id": 108,
+    "opportunity_name": "Sir Harry Evans Global Fellowship",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Mid-career journalists and digital news media researchers worldwide.",
+    "key_benefits_and_rewards": "£4,444/month salary combined with a structural £1,250/month living stipend.",
+    "required_documents": "Portfolio of work, Personal Research Statement, 2 References.",
+    "required_documents_list": [
+      "Portfolio of work",
+      "Personal Research Statement",
+      "2 References"
+    ],
+    "application_deadline": "Check portal deadlines",
+    "application_url": "https://www.opportunitiesforafricans.com",
+    "deadline_date": null,
+    "deadline_type": "Check portal",
+    "is_past_deadline": false,
+    "deadline_status_label": "Check official portal for active cycle",
+    "source_page": 18,
+    "data_quality_notes": "Portal announcement cycle through Durham University and partners.",
+    "categories": [
+      "Scholarships",
+      "Fellowships"
+    ],
+    "eligibility_tags": [
+      "Researchers"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 109,
+    "opportunity_name": "Western Union Global Impact Fellowship",
+    "continent_or_region": "Americas / Global",
+    "eligibility_criteria": "Social tech founders aged 18–35 building inclusion tools.",
+    "key_benefits_and_rewards": "Fully funded 16-week executive accelerator training program and grants.",
+    "required_documents": "Project Execution Plan, Transcripts, Passport Scan.",
+    "required_documents_list": [
+      "Project Execution Plan",
+      "Transcripts",
+      "Passport Scan"
+    ],
+    "application_deadline": "September 15, 2026",
+    "application_url": "https://watson.is",
+    "deadline_date": "2026-09-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 18,
+    "data_quality_notes": "Listed deadline was September 15, 2026. Watson Institute partnership.",
+    "categories": [
+      "Grants",
+      "Fellowships",
+      "Accelerators",
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Young professionals",
+      "Entrepreneurs",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Global",
+      "Americas"
+    ]
+  },
+  {
+    "id": 110,
+    "opportunity_name": "100+ Accelerator Sustainability Program",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Growth-stage cleantech or green supply chain platforms globally.",
+    "key_benefits_and_rewards": "Direct multi-national supply chain pilot contracts and up to $100,000.",
+    "required_documents": "Commercial Pilot Workplan, Tech Specifications, Company Accounts.",
+    "required_documents_list": [
+      "Commercial Pilot Workplan",
+      "Tech Specifications",
+      "Company Accounts"
+    ],
+    "application_deadline": "December 1, 2026",
+    "application_url": "https://www.100accelerator.com",
+    "deadline_date": "2026-12-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 19,
+    "data_quality_notes": "Listed deadline: December 1, 2026.",
+    "categories": [
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 111,
+    "opportunity_name": "University of Birmingham Global South Fellowship",
+    "continent_or_region": "Asia/Americas/Africa",
+    "eligibility_criteria": "Established academic researchers from Global South institutions.",
+    "key_benefits_and_rewards": "Covered travel expenses up to £850 plus £1,500 monthly stipends.",
+    "required_documents": "Research Plan, Academic CV, Institutional Reference Letters.",
+    "required_documents_list": [
+      "Research Plan",
+      "Academic CV",
+      "Institutional Reference Letters"
+    ],
+    "application_deadline": "Late 2026 cut-off",
+    "application_url": "https://www.opportunitiesforafricans.com",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 19,
+    "data_quality_notes": "Late 2026 cut-off window.",
+    "categories": [
+      "Scholarships",
+      "Fellowships"
+    ],
+    "eligibility_tags": [
+      "Researchers"
+    ],
+    "region_tags": [
+      "Africa",
+      "Asia",
+      "Americas"
+    ]
+  },
+  {
+    "id": 112,
+    "opportunity_name": "Luxembourg Fit 4 Start Program",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Tech, health-tech, or space startups looking to register in Luxembourg.",
+    "key_benefits_and_rewards": "€150,000 in equity-free corporate co-funding and business coaching.",
+    "required_documents": "Business Concept Document, Pitch Slide Deck, Founder IDs.",
+    "required_documents_list": [
+      "Business Concept Document",
+      "Pitch Slide Deck",
+      "Founder IDs"
+    ],
+    "application_deadline": "Late October 2026",
+    "application_url": "https://www.luxinnovation.lu",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 19,
+    "data_quality_notes": "Approximate deadline: Late October 2026.",
+    "categories": [
+      "Grants",
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 113,
+    "opportunity_name": "Alchemist Doha MENA Accelerator",
+    "continent_or_region": "Asia / Middle East",
+    "eligibility_criteria": "Enterprise B2B SaaS or software tech startups expanding to MENA.",
+    "key_benefits_and_rewards": "$50,000 upfront seed financial investment and enterprise sales lines.",
+    "required_documents": "Software Demo, Cap Table, Core Team Resumes, Pitch Deck.",
+    "required_documents_list": [
+      "Software Demo",
+      "Cap Table",
+      "Core Team Resumes",
+      "Pitch Deck"
+    ],
+    "application_deadline": "Rolling Intake",
+    "application_url": "https://www.alchemistaccelerator.com",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 19,
+    "data_quality_notes": "Continuous rolling intake for Alchemist Doha hub.",
+    "categories": [
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Startups",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Asia",
+      "Middle East"
+    ]
+  },
+  {
+    "id": 114,
+    "opportunity_name": "Echoing Green Global Fellowship",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Pre-seed social impact innovators delivering equity solutions globally.",
+    "key_benefits_and_rewards": "Unrestricted seed funding capital of $80,000 spread across two years.",
+    "required_documents": "Social Impact Essay, Budget Projections, Core References.",
+    "required_documents_list": [
+      "Social Impact Essay",
+      "Budget Projections",
+      "Core References"
+    ],
+    "application_deadline": "October 20, 2026",
+    "application_url": "https://www.echoinggreen.org",
+    "deadline_date": "2026-10-20",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 19,
+    "data_quality_notes": "Listed deadline was October 20, 2026.",
+    "categories": [
+      "Grants",
+      "Fellowships"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups",
+      "Researchers"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 115,
+    "opportunity_name": "MassChallenge Switzerland Accelerator",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Early-to-growth stage startups across climate, agrifood, or deep tech.",
+    "key_benefits_and_rewards": "Equity-free zero-fee program access and share of CHF 1M cash prize pool.",
+    "required_documents": "Innovation Overview, Growth Goals, Slide Deck, Core Resumes.",
+    "required_documents_list": [
+      "Innovation Overview",
+      "Growth Goals",
+      "Slide Deck",
+      "Core Resumes"
+    ],
+    "application_deadline": "February 12, 2027",
+    "application_url": "https://masschallenge.org",
+    "deadline_date": "2027-02-12",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 19,
+    "data_quality_notes": "Listed deadline: February 12, 2027.",
+    "categories": [
+      "Grants",
+      "Accelerators",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 116,
+    "opportunity_name": "Seedcamp Europe Seed Fund",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Highly technical European founders building scalable software systems.",
+    "key_benefits_and_rewards": "Core pre-seed/seed investments from $350,000 to $1,000,000.",
+    "required_documents": "Detailed Technical Plan, Cap Table, Revenue Model Forecasts.",
+    "required_documents_list": [
+      "Detailed Technical Plan",
+      "Cap Table",
+      "Revenue Model Forecasts"
+    ],
+    "application_deadline": "Continuous intake",
+    "application_url": "https://seedcamp.com",
+    "deadline_date": null,
+    "deadline_type": "Continuous intake",
+    "is_past_deadline": false,
+    "deadline_status_label": "Continuous intake — verify status with provider",
+    "source_page": 20,
+    "data_quality_notes": "Continuous investment review process.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 117,
+    "opportunity_name": "Tech Nation Applied AI Tracker",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Machine learning or artificial intelligence startups building in the UK.",
+    "key_benefits_and_rewards": "AI scaling workshops, procurement setups, and Visa endorsement path.",
+    "required_documents": "UK Registration Proof, Use-Case Paper, Financial metrics.",
+    "required_documents_list": [
+      "UK Registration Proof",
+      "Use-Case Paper",
+      "Financial metrics"
+    ],
+    "application_deadline": "November 30, 2026",
+    "application_url": "https://technation.io",
+    "deadline_date": "2026-11-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 20,
+    "data_quality_notes": "Listed deadline: November 30, 2026.",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 118,
+    "opportunity_name": "Orbit Startups Emerging Markets Track",
+    "continent_or_region": "Asia",
+    "eligibility_criteria": "Tech startups across digitalization sectors expanding into emerging hubs.",
+    "key_benefits_and_rewards": "$150,000 initial investment combined with cross-border scaling tracks.",
+    "required_documents": "Product Demo Link, Pitch Slide Deck, Operational Financials.",
+    "required_documents_list": [
+      "Product Demo Link",
+      "Pitch Slide Deck",
+      "Operational Financials"
+    ],
+    "application_deadline": "Rolling evaluation",
+    "application_url": "https://orbitstartups.com",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 20,
+    "data_quality_notes": "Rolling evaluation format by Orbit / SOSV.",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Asia"
+    ]
+  },
+  {
+    "id": 119,
+    "opportunity_name": "Indo-Pacific NGO Blended Finance Accelerator",
+    "continent_or_region": "Asia / Oceania",
+    "eligibility_criteria": "NGOs and social impact firms delivering climate or gender frameworks.",
+    "key_benefits_and_rewards": "Scale funding options value up to AUD 840,000 for verified projects.",
+    "required_documents": "Impact Model, Financial Audit Paper, NGO Charter.",
+    "required_documents_list": [
+      "Impact Model",
+      "Financial Audit Paper",
+      "NGO Charter"
+    ],
+    "application_deadline": "November 1, 2026",
+    "application_url": "https://opportunitiesforyouth.org",
+    "deadline_date": "2026-11-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 20,
+    "data_quality_notes": "Listed deadline was November 1, 2026.",
+    "categories": [
+      "Grants",
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "NGOs"
+    ],
+    "region_tags": [
+      "Asia",
+      "Oceania"
+    ]
+  },
+  {
+    "id": 120,
+    "opportunity_name": "L’Oréal L’AcceleratOR Innovation Program",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Sustainability and clean beauty tech startups globally.",
+    "key_benefits_and_rewards": "Enterprise pilot alignment with access to a €100M innovation pool.",
+    "required_documents": "Tech Specs sheet, Corporate Profile, Pilot proposal.",
+    "required_documents_list": [
+      "Tech Specs sheet",
+      "Corporate Profile",
+      "Pilot proposal"
+    ],
+    "application_deadline": "December 1, 2026",
+    "application_url": "https://opportunitiesforyouth.org",
+    "deadline_date": "2026-12-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 20,
+    "data_quality_notes": "Listed deadline: December 1, 2026.",
+    "categories": [
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 121,
+    "opportunity_name": "Capital Factory Austin Tech Track",
+    "continent_or_region": "Americas",
+    "eligibility_criteria": "Disruptive tech and deep-tech startups scaling into North America.",
+    "key_benefits_and_rewards": "Mentorship paths, investor matchmaking, and VIP entries at SXSW.",
+    "required_documents": "Product Pitch Deck, Financial Summary, Executive Summary.",
+    "required_documents_list": [
+      "Product Pitch Deck",
+      "Financial Summary",
+      "Executive Summary"
+    ],
+    "application_deadline": "Quarterly cycles",
+    "application_url": "https://www.capitalfactory.com",
+    "deadline_date": null,
+    "deadline_type": "Quarterly",
+    "is_past_deadline": false,
+    "deadline_status_label": "Quarterly open cycles — verify status with provider",
+    "source_page": 20,
+    "data_quality_notes": "Quarterly application cycles for North American market entry.",
+    "categories": [
+      "Mentorship"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Americas"
+    ]
+  },
+  {
+    "id": 122,
+    "opportunity_name": "Princeton University HAX Plasma Forge",
+    "continent_or_region": "Americas",
+    "eligibility_criteria": "Deep-tech hardware, clean manufacturing, or robotics startups.",
+    "key_benefits_and_rewards": "Advanced laboratory engineering, blueprint testing, and seed capital paths.",
+    "required_documents": "Structural Blueprints, IP Disclosures, Founding Team Bios.",
+    "required_documents_list": [
+      "Structural Blueprints",
+      "IP Disclosures",
+      "Founding Team Bios"
+    ],
+    "application_deadline": "Continuous entry",
+    "application_url": "https://hax.co",
+    "deadline_date": null,
+    "deadline_type": "Continuous intake",
+    "is_past_deadline": false,
+    "deadline_status_label": "Continuous intake — verify status with provider",
+    "source_page": 21,
+    "data_quality_notes": "Continuous application entry via HAX / Princeton partnership.",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Americas"
+    ]
+  },
+  {
+    "id": 123,
+    "opportunity_name": "RevTech Labs FinTech Accelerator",
+    "continent_or_region": "Americas",
+    "eligibility_criteria": "B2B enterprise SaaS models across FinTech, InsurTech, or PropTech.",
+    "key_benefits_and_rewards": "Up to $220,000 funding routes and direct partner validation tests.",
+    "required_documents": "Audited Financial Accounts, Client Case Studies, Product Demo.",
+    "required_documents_list": [
+      "Audited Financial Accounts",
+      "Client Case Studies",
+      "Product Demo"
+    ],
+    "application_deadline": "November 10, 2026",
+    "application_url": "https://revtechlabs.com",
+    "deadline_date": "2026-11-10",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 21,
+    "data_quality_notes": "Listed deadline: November 10, 2026.",
+    "categories": [
+      "Grants",
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Americas"
+    ]
+  },
+  {
+    "id": 124,
+    "opportunity_name": "RootCamp AgriTech Accelerator",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Innovative international startups focusing on smart agrifood systems.",
+    "key_benefits_and_rewards": "Non-dilutive cash grant funding up to €50,000 and corporate pilots.",
+    "required_documents": "Business Summary, MVP Demo link, Incorporation papers.",
+    "required_documents_list": [
+      "Business Summary",
+      "MVP Demo link",
+      "Incorporation papers"
+    ],
+    "application_deadline": "January 15, 2027",
+    "application_url": "https://www.rootcamp.seedblink.com",
+    "deadline_date": "2027-01-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 21,
+    "data_quality_notes": "Listed deadline: January 15, 2027.",
+    "categories": [
+      "Grants",
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 125,
+    "opportunity_name": "Stellar Network EMEA Blockchain Accelerator",
+    "continent_or_region": "Europe/Asia/Africa",
+    "eligibility_criteria": "Web3 or financial engineering teams deploying tools on Stellar.",
+    "key_benefits_and_rewards": "12-week development execution support and dev grant credits.",
+    "required_documents": "Open-Source Code Repository, Architecture Diagram, Slide Deck.",
+    "required_documents_list": [
+      "Open-Source Code Repository",
+      "Architecture Diagram",
+      "Slide Deck"
+    ],
+    "application_deadline": "Rolling intake",
+    "application_url": "https://stellar.org",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 21,
+    "data_quality_notes": "Continuous rolling intake for EMEA developer teams.",
+    "categories": [
+      "Grants",
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Africa",
+      "Europe",
+      "Asia"
+    ]
+  },
+  {
+    "id": 126,
+    "opportunity_name": "Innovate UK Smart Grants",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "UK-registered small and medium businesses delivering deep innovations.",
+    "key_benefits_and_rewards": "Large-scale non-dilutive R&D grant options up to £2 Million.",
+    "required_documents": "Research Framework, Commercial Exploitation Plan, Budget.",
+    "required_documents_list": [
+      "Research Framework",
+      "Commercial Exploitation Plan",
+      "Budget"
+    ],
+    "application_deadline": "Quarterly cut-offs",
+    "application_url": "https://www.gov.uk",
+    "deadline_date": null,
+    "deadline_type": "Quarterly",
+    "is_past_deadline": false,
+    "deadline_status_label": "Quarterly open cycles — verify status with provider",
+    "source_page": 21,
+    "data_quality_notes": "Official UK Government quarterly Smart Grant competition cut-offs.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 127,
+    "opportunity_name": "Asian Development Bank Internship",
+    "continent_or_region": "Asia",
+    "eligibility_criteria": "Post-graduate or PhD students from ADB member nations.",
+    "key_benefits_and_rewards": "Paid international development assignment tracking and travel stipends.",
+    "required_documents": "CV, Enrolment Verification, Research Writing Sample.",
+    "required_documents_list": [
+      "CV",
+      "Enrolment Verification",
+      "Research Writing Sample"
+    ],
+    "application_deadline": "September 30, 2026",
+    "application_url": "https://www.adb.org",
+    "deadline_date": "2026-09-30",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 21,
+    "data_quality_notes": "Listed deadline was September 30, 2026.",
+    "categories": [
+      "Scholarships",
+      "Internships"
+    ],
+    "eligibility_tags": [
+      "Students",
+      "Graduates"
+    ],
+    "region_tags": [
+      "Asia"
+    ]
+  },
+  {
+    "id": 128,
+    "opportunity_name": "Japan Exchange Group (JPX) Tech Track",
+    "continent_or_region": "Asia",
+    "eligibility_criteria": "Growth tech startups looking to integrate into Asian capital networks.",
+    "key_benefits_and_rewards": "Asia investor pipelines, scaling masterclasses, and corporate matching.",
+    "required_documents": "Company Overview, Cap Table, Revenue Track Sheet.",
+    "required_documents_list": [
+      "Company Overview",
+      "Cap Table",
+      "Revenue Track Sheet"
+    ],
+    "application_deadline": "Rolling applications",
+    "application_url": "https://www.jpx.co.jp",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 22,
+    "data_quality_notes": "Rolling application intake for JPX market entry.",
+    "categories": [
+      "Training"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Asia"
+    ]
+  },
+  {
+    "id": 129,
+    "opportunity_name": "HKSTP Epic Pitch Competition",
+    "continent_or_region": "Asia",
+    "eligibility_criteria": "Globally scalable technology ventures across fintech, AI, or green-tech.",
+    "key_benefits_and_rewards": "Direct paths to large-scale global cash prizes and corporate entries.",
+    "required_documents": "Corporate Registration, Market Expansion Deck, Pitch Video.",
+    "required_documents_list": [
+      "Corporate Registration",
+      "Market Expansion Deck",
+      "Pitch Video"
+    ],
+    "application_deadline": "Mid-December 2026",
+    "application_url": "https://www.hkstp.org",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 22,
+    "data_quality_notes": "Approximate deadline: Mid-December 2026.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Asia"
+    ]
+  },
+  {
+    "id": 130,
+    "opportunity_name": "Blue Food & Aquaculture Innovation Program",
+    "continent_or_region": "Europe / Global",
+    "eligibility_criteria": "Sustainable aquaculture, marine-tech, and food system innovations.",
+    "key_benefits_and_rewards": "Commercial scaling pilot frameworks and global scientific mentoring.",
+    "required_documents": "Scientific Paper, Project Pilot Plan, Corporate Registration.",
+    "required_documents_list": [
+      "Scientific Paper",
+      "Project Pilot Plan",
+      "Corporate Registration"
+    ],
+    "application_deadline": "November 1, 2026",
+    "application_url": "https://www.bluefood.se",
+    "deadline_date": "2026-11-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 22,
+    "data_quality_notes": "Listed deadline was November 1, 2026.",
+    "categories": [
+      "Mentorship",
+      "Research"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Global",
+      "Europe"
+    ]
+  },
+  {
+    "id": 131,
+    "opportunity_name": "GreenLight Fund Expression of Interest",
+    "continent_or_region": "Americas",
+    "eligibility_criteria": "High-impact tech-enabled non-profits solving city disparities.",
+    "key_benefits_and_rewards": "Unrestricted multi-year structural development grants up to $600,000.",
+    "required_documents": "501(c)(3) Status Document, 3-Year Audits, Impact Metrics.",
+    "required_documents_list": [
+      "501(c)(3) Status Document",
+      "3-Year Audits",
+      "Impact Metrics"
+    ],
+    "application_deadline": "October 1, 2026",
+    "application_url": "https://greenlightfund.org",
+    "deadline_date": "2026-10-01",
+    "deadline_type": "Specific date",
+    "is_past_deadline": true,
+    "deadline_status_label": "Listed deadline passed — verify with provider",
+    "source_page": 22,
+    "data_quality_notes": "Listed deadline was October 1, 2026.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "NGOs"
+    ],
+    "region_tags": [
+      "Americas"
+    ]
+  },
+  {
+    "id": 132,
+    "opportunity_name": "Hub71 Abu Dhabi Incentive Program",
+    "continent_or_region": "Asia / Middle East",
+    "eligibility_criteria": "Tech startups across enterprise sectors expanding into MENA.",
+    "key_benefits_and_rewards": "Subsidized housing setups, office workspace, and direct equity investment.",
+    "required_documents": "Company Pitch Deck, Corporate Financial Model, Software Demo.",
+    "required_documents_list": [
+      "Company Pitch Deck",
+      "Corporate Financial Model",
+      "Software Demo"
+    ],
+    "application_deadline": "Continuous rolling",
+    "application_url": "https://www.hub71.com",
+    "deadline_date": null,
+    "deadline_type": "Rolling",
+    "is_past_deadline": false,
+    "deadline_status_label": "Rolling intake — verify status with provider",
+    "source_page": 22,
+    "data_quality_notes": "Continuous rolling intake for Abu Dhabi tech ecosystem.",
+    "categories": [
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Startups",
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Asia",
+      "Middle East"
+    ]
+  },
+  {
+    "id": 133,
+    "opportunity_name": "EIC Accelerator (European Innovation Council)",
+    "continent_or_region": "Europe",
+    "eligibility_criteria": "Deep-tech or science small/medium enterprises in EU associated nations.",
+    "key_benefits_and_rewards": "Up to €2.5 Million in equity-free grant financing and direct equity capital.",
+    "required_documents": "Innovation Business Plan, Slide Deck, Freedom to Operate Paper.",
+    "required_documents_list": [
+      "Innovation Business Plan",
+      "Slide Deck",
+      "Freedom to Operate Paper"
+    ],
+    "application_deadline": "Varies by milestone dates",
+    "application_url": "https://eic.ec.europa.eu",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 22,
+    "data_quality_notes": "Cut-offs vary by European Commission milestone dates.",
+    "categories": [
+      "Grants",
+      "Accelerators"
+    ],
+    "eligibility_tags": [
+      "SMEs/business owners"
+    ],
+    "region_tags": [
+      "Europe"
+    ]
+  },
+  {
+    "id": 134,
+    "opportunity_name": "MIT Solve Global Challenges",
+    "continent_or_region": "Global",
+    "eligibility_criteria": "Tech entrepreneurs, designers, and research teams solving annual themes.",
+    "key_benefits_and_rewards": "Share of over $1 Million in global prize funding tracks and MIT networks.",
+    "required_documents": "Solution Architecture Paper, Executive Summary, 2-Min Video.",
+    "required_documents_list": [
+      "Solution Architecture Paper",
+      "Executive Summary",
+      "2-Min Video"
+    ],
+    "application_deadline": "January 15, 2027",
+    "application_url": "https://solve.mit.edu",
+    "deadline_date": "2027-01-15",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 23,
+    "data_quality_notes": "Listed deadline: January 15, 2027.",
+    "categories": [
+      "Grants",
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Global"
+    ]
+  },
+  {
+    "id": 135,
+    "opportunity_name": "Toronto Tech Founders Program",
+    "continent_or_region": "Americas",
+    "eligibility_criteria": "Early-stage technology founders setting up corporate offices in Canada.",
+    "key_benefits_and_rewards": "Direct paths into North American procurement and capital networks.",
+    "required_documents": "Canadian Entity Documents, Cap Table, Expansion Strategy.",
+    "required_documents_list": [
+      "Canadian Entity Documents",
+      "Cap Table",
+      "Expansion Strategy"
+    ],
+    "application_deadline": "Quarterly reviews",
+    "application_url": "https://www.toronto.ca",
+    "deadline_date": null,
+    "deadline_type": "Quarterly",
+    "is_past_deadline": false,
+    "deadline_status_label": "Quarterly open cycles — verify status with provider",
+    "source_page": 23,
+    "data_quality_notes": "Quarterly cohort review cycle for Canadian market establishment.",
+    "categories": [
+      "Other"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs",
+      "Startups"
+    ],
+    "region_tags": [
+      "Americas"
+    ]
+  },
+  {
+    "id": 136,
+    "opportunity_name": "Start-Up Chile Build & Ignite Tracks",
+    "continent_or_region": "Americas",
+    "eligibility_criteria": "Global technology innovators scaling products inside Latin America.",
+    "key_benefits_and_rewards": "Up to $50,000 in equity-free deployment grants and Chilean visas.",
+    "required_documents": "Pitch Deck, Passport Copies, Two Recommendation Letters.",
+    "required_documents_list": [
+      "Pitch Deck",
+      "Passport Copies",
+      "Two Recommendation Letters"
+    ],
+    "application_deadline": "Late 2026 Cycle",
+    "application_url": "https://startupchile.org",
+    "deadline_date": null,
+    "deadline_type": "Other/unspecified",
+    "is_past_deadline": false,
+    "deadline_status_label": "Special schedule — verify status with provider",
+    "source_page": 23,
+    "data_quality_notes": "Late 2026 generation cycle.",
+    "categories": [
+      "Grants"
+    ],
+    "eligibility_tags": [
+      "Entrepreneurs"
+    ],
+    "region_tags": [
+      "Americas"
+    ]
+  },
+  {
+    "id": 137,
+    "opportunity_name": "Parallel 18 Puerto Rico Accelerator",
+    "continent_or_region": "Americas",
+    "eligibility_criteria": "Market-validated technology products scaling into international spaces.",
+    "key_benefits_and_rewards": "$40,000 in non-dilutive equity grants and shared workspace.",
+    "required_documents": "Registration Certificate, Product Demo Link, Pitch Deck, IDs.",
+    "required_documents_list": [
+      "Registration Certificate",
+      "Product Demo Link",
+      "Pitch Deck",
+      "IDs"
+    ],
+    "application_deadline": "December 5, 2026",
+    "application_url": "https://www.parallel18.com",
+    "deadline_date": "2026-12-05",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 23,
+    "data_quality_notes": "Listed deadline: December 5, 2026.",
+    "categories": [
+      "Grants",
+      "Accelerators",
+      "Business Support"
+    ],
+    "eligibility_tags": [
+      "Other"
+    ],
+    "region_tags": [
+      "Americas"
+    ]
+  },
+  {
+    "id": 138,
+    "opportunity_name": "South Summit Innovation Challenge",
+    "continent_or_region": "Europe / Global",
+    "eligibility_criteria": "High-growth startups across tech tracks seeking visibility in Europe.",
+    "key_benefits_and_rewards": "Mainstage pitching opportunities, VC matching, and corporate tracks.",
+    "required_documents": "Complete Slide Deck, Financial Model, MVP System Overview.",
+    "required_documents_list": [
+      "Complete Slide Deck",
+      "Financial Model",
+      "MVP System Overview"
+    ],
+    "application_deadline": "January 31, 2027",
+    "application_url": "https://www.southsummit.co",
+    "deadline_date": "2027-01-31",
+    "deadline_type": "Specific date",
+    "is_past_deadline": false,
+    "deadline_status_label": "Listed deadline upcoming",
+    "source_page": 23,
+    "data_quality_notes": "Listed deadline: January 31, 2027.",
+    "categories": [
+      "Competitions"
+    ],
+    "eligibility_tags": [
+      "Startups"
+    ],
+    "region_tags": [
+      "Global",
+      "Europe"
+    ]
+  }
+];
