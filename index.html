@@ -66,12 +66,15 @@
           <p class="mt-1.5 text-sm sm:text-base text-slate-600 max-w-2xl leading-relaxed">
             The curated directory of scholarships, grants, fellowships, and accelerators across Africa & worldwide.
           </p>
-          <div class="mt-3 flex items-center gap-2.5 flex-wrap">
-            <button id="open-playbook-btn" class="btn btn-primary text-xs py-1.5 px-3 flex items-center gap-1.5 shadow-sm">
-              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-              </svg>
-              <span>Applicant Playbook & Advice</span>
+          <div class="mt-3.5 flex items-center gap-3 flex-wrap">
+            <button id="open-playbook-btn" class="playbook-hero-btn" title="Open Applicant Playbook & Strategy Guide">
+              <span class="playbook-hero-icon">
+                <svg class="w-4 h-4 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </span>
+              <span class="font-bold text-white text-xs sm:text-sm">Applicant Playbook & Advice</span>
+              <span class="playbook-badge">STRATEGY GUIDE</span>
             </button>
             <div class="flex items-center gap-1.5 text-xs text-slate-500">
               <span>Data originated by:</span>
@@ -315,6 +318,42 @@
       </div>
     </section>
 
+    <!-- PROMINENT APPLICANT PLAYBOOK FEATURE BANNER (Distinct Purple & Amber) -->
+    <div class="playbook-banner mb-6" id="playbook-feature-banner">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 p-4 sm:p-5 rounded-2xl relative z-10">
+        <div class="flex items-start sm:items-center gap-3.5">
+          <div class="playbook-banner-icon-box shrink-0 shadow-sm">
+            <svg class="w-6 h-6 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-2 mb-1 flex-wrap">
+              <span class="px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-amber-400 text-purple-950 shadow-xs">
+                Essential Playbook
+              </span>
+              <span class="text-xs font-semibold text-purple-200">Go Beyond Raw Data</span>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-white tracking-tight">
+              The Applicant Playbook: 5 Golden Rules for Winning Grants & Accelerators
+            </h3>
+            <p class="text-xs sm:text-sm text-purple-100 max-w-2xl mt-0.5 leading-relaxed">
+              De-risk selection committees, assemble your 72-hour document dossier, and learn how to beat rolling intake quotas.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 shrink-0 self-start md:self-auto">
+          <button id="banner-playbook-btn" class="playbook-cta-pulse">
+            <span>Read Field Manual</span>
+            <svg class="w-4 h-4 text-purple-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- SEARCH & CONTROLS TOOLBAR -->
     <div class="bg-white border border-slate-200 rounded-2xl p-4 sm:p-5 shadow-sm mb-6 space-y-4">
       
@@ -334,11 +373,11 @@
           <button class="persona-pill" data-persona="students">🎓 Students & Scholars (28)</button>
           <button class="persona-pill" data-persona="smes">🌱 MSMEs & Impact (34)</button>
         </div>
-        <button id="guide-link-btn" class="text-blue-600 font-bold hover:text-blue-800 hover:underline flex items-center gap-1 shrink-0 text-xs py-1 px-2.5 rounded-lg bg-blue-50/70 border border-blue-200/60 transition-colors self-start sm:self-auto">
-          <svg class="w-3.5 h-3.5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <button id="guide-link-btn" class="playbook-pill-btn self-start sm:self-auto" title="Read Applicant Playbook & Strategy">
+          <svg class="w-3.5 h-3.5 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>
-          <span>General Principles & Advice</span>
+          <span>5 Golden Rules & Advice</span>
         </button>
       </div>
 
@@ -908,23 +947,26 @@
   <div id="playbook-modal-backdrop" class="modal-backdrop"></div>
   <div id="playbook-modal" class="modal-dialog playbook-dialog" role="dialog" aria-modal="true" aria-labelledby="playbook-modal-title">
     
-    <!-- Modal Header -->
-    <div class="px-6 pt-5 pb-4 border-b border-slate-200 flex items-start justify-between gap-4 bg-slate-50/70">
+    <!-- Modal Header (Distinct Purple & Amber Theme) -->
+    <div class="px-6 pt-5 pb-4 border-b border-purple-800/40 flex items-start justify-between gap-4 playbook-modal-header">
       <div>
-        <div class="flex items-center gap-2 mb-1">
-          <span class="px-2.5 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider bg-blue-100 text-blue-800">
+        <div class="flex items-center gap-2 mb-1.5 flex-wrap">
+          <span class="px-2.5 py-0.5 rounded text-[11px] font-black uppercase tracking-wider bg-amber-400 text-purple-950 shadow-xs">
             Applicant Field Manual
           </span>
-          <span class="text-xs text-slate-500 font-medium">OpportunityAtlas Intelligence</span>
+          <span class="text-xs text-purple-200 font-medium">OpportunityAtlas Intelligence • Master Playbook</span>
         </div>
-        <h2 id="playbook-modal-title" class="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-          Applicant Playbook, Strategy & General Principles
+        <h2 id="playbook-modal-title" class="text-xl sm:text-2xl font-black text-white tracking-tight flex items-center gap-2.5">
+          <svg class="w-6 h-6 text-amber-300 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
+          <span>Applicant Playbook & 5 Golden Rules</span>
         </h2>
-        <p class="text-xs sm:text-sm text-slate-600 mt-0.5">
-          How to navigate $100M+ in global programs, identify your perfect fit, and submit winning applications.
+        <p class="text-xs sm:text-sm text-purple-100 mt-1">
+          De-risk selection committees, format your 72-hour document dossier, and learn how to beat rolling intake quotas.
         </p>
       </div>
-      <button id="playbook-close-btn" class="p-2 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-colors" title="Close (Esc)">
+      <button id="playbook-close-btn" class="p-2 rounded-lg text-purple-200 hover:text-white hover:bg-white/15 transition-colors" title="Close (Esc)">
         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
@@ -932,7 +974,7 @@
     </div>
 
     <!-- Navigation Tabs -->
-    <div class="flex items-center border-b border-slate-200 px-6 bg-slate-50/40 overflow-x-auto gap-2">
+    <div class="flex items-center border-b border-slate-200 px-6 bg-purple-50/40 overflow-x-auto gap-2">
       <button class="playbook-tab-btn active" data-tab="tab-overview">🧭 What This Is</button>
       <button class="playbook-tab-btn" data-tab="tab-personas">🎯 Who It's For</button>
       <button class="playbook-tab-btn" data-tab="tab-principles">🏆 5 Golden Rules</button>

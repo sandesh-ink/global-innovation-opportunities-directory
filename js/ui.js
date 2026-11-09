@@ -1387,6 +1387,9 @@
     const openPlaybookBtn = document.getElementById('open-playbook-btn');
     if (openPlaybookBtn) openPlaybookBtn.addEventListener('click', () => window.openPlaybookModal('tab-overview'));
 
+    const bannerPlaybookBtn = document.getElementById('banner-playbook-btn');
+    if (bannerPlaybookBtn) bannerPlaybookBtn.addEventListener('click', () => window.openPlaybookModal('tab-principles'));
+
     const guideLinkBtn = document.getElementById('guide-link-btn');
     if (guideLinkBtn) guideLinkBtn.addEventListener('click', () => window.openPlaybookModal('tab-principles'));
 
