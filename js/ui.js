@@ -1136,7 +1136,7 @@
 
     const csvData = DirectoryEngine.generateCSV(currentFilteredList);
     const dateStamp = new Date().toISOString().slice(0, 10);
-    const filename = `OpportunityAtlas_Directory_${dateStamp}.csv`;
+    const filename = `InnovationAtlas_Directory_${dateStamp}.csv`;
 
     const blob = new Blob([csvData], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);

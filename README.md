@@ -1,15 +1,15 @@
-# OpportunityAtlas (2026/2027)
+# Innovation Atlas (2026/2027)
 ### The Global Innovation, Grants & Accelerators Directory
 
 A complete, database-driven, responsive intelligence platform and interactive directory constructed from the **2026/2027 Master Opportunities Directory**, originally compiled and published by **Abdulsamad ([@richtosho](https://x.com/richtosho))** on X / Twitter.
 
-OpportunityAtlas transforms raw PDF data into an active operational cockpit for founders, researchers, women in tech, students, and SMEs seeking non-dilutive grants, pre-seed accelerators, and fellowships worldwide.
+Innovation Atlas transforms raw PDF data into an active operational cockpit for founders, researchers, women in tech, students, and SMEs seeking non-dilutive grants, pre-seed accelerators, and fellowships worldwide.
 
 ---
 
 ## 🧭 What This Is
 
-OpportunityAtlas tracks **$100M+ in funding pools across 138 vetted global and regional programs** spanning 7 continents. It goes beyond a simple directory by integrating real-time deadline calculations, category-specific applicant pro-tips, universal document checklists, and interactive geographic map filtering.
+Innovation Atlas tracks **$100M+ in funding pools across 138 vetted global and regional programs** spanning 7 continents. It goes beyond a simple directory by integrating real-time deadline calculations, category-specific applicant pro-tips, universal document checklists, and interactive geographic map filtering.
 
 ---
 
@@ -65,7 +65,7 @@ OpportunityAtlas tracks **$100M+ in funding pools across 138 vetted global and r
   - Rolling & Continuous Intakes: **29**
   - Cohort / Portal / Recurring Windows: **37**
   - Past listed deadlines relative to current date: **40** (labeled with caution notice: `Listed deadline passed — verify with provider`)
-- **License / Terms**: Original compilation marked **NOT FOR SALE** by Abdulsamad (`@richtosho`).
+- **Attribution**: Original compilation by Abdulsamad (`@richtosho`).
 
 ---
 
