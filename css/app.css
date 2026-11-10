@@ -572,6 +572,52 @@ mark.search-highlight {
   background-color: #ffffff;
 }
 
+/* Interactive MiniCharts SVG Styling (Matches Map Palette) */
+.chart-node {
+  transition: transform 0.16s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.15s ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.chart-node:hover {
+  transform: scale(1.03);
+  opacity: 0.94;
+}
+
+.waffle-tile {
+  transition: transform 0.14s ease, opacity 0.14s ease, stroke 0.14s ease;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.waffle-tile:hover {
+  transform: scale(1.32);
+  opacity: 1 !important;
+  stroke: #0f172a;
+  stroke-width: 1.4;
+}
+
+.chart-tooltip {
+  position: fixed;
+  z-index: 150;
+  pointer-events: none;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 6px 10px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  max-width: 260px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+}
+.chart-tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Persona Quick Pills */
 .persona-pill {
   display: inline-flex;

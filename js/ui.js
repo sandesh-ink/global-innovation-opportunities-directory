@@ -7,6 +7,7 @@
   // State Management
   let dataset = [];
   let currentFilteredList = [];
+  let modalActiveList = [];
   let currentModalIndex = 0;
 
   const state = {
@@ -115,12 +116,15 @@
     // 6. Update Saved Counter
     updateSavedCounter();
 
-    // 7. Initial Query Execution & Render
+    // 7. Render Statistics Visual Charts
+    renderStatisticsCharts();
+
+    // 8. Initial Query Execution & Render
     refresh();
   }
 
   /**
-   * Renders Header Statistics
+   * Renders Header Statistics & Live Date
    */
   function renderHeaderKPIs() {
     const stats = DirectoryEngine.computeDirectoryStats(dataset);
@@ -137,6 +141,53 @@
     if (liveDateEl) {
       const todayFormatted = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' }).format(new Date());
       liveDateEl.textContent = `Today: ${todayFormatted}`;
+    }
+  }
+
+  /**
+   * Renders Interactive MiniCharts inside the Statistics Section
+   */
+  function renderStatisticsCharts() {
+    if (typeof DirectoryCharts === 'undefined') return;
+
+    const regionContainer = document.getElementById('chart-region-pins');
+    if (regionContainer) {
+      regionContainer.innerHTML = DirectoryCharts.renderRegionPinChart(dataset);
+    }
+
+    const waffleContainer = document.getElementById('chart-deadline-waffle');
+    if (waffleContainer) {
+      const waffleData = DirectoryCharts.renderDeadlineWaffleChart(dataset);
+      waffleContainer.innerHTML = waffleData.svg;
+      const waffleHeader = document.getElementById('stat-waffle-active');
+      if (waffleHeader && waffleData.counts) {
+        waffleHeader.textContent = `${waffleData.counts.activeTotal} Active / Open`;
+      }
+    }
+
+    const coinsContainer = document.getElementById('chart-capital-coins');
+    if (coinsContainer) {
+      coinsContainer.innerHTML = DirectoryCharts.renderCapitalCoinChart();
+    }
+
+    const catsContainer = document.getElementById('chart-category-lollipops');
+    if (catsContainer) {
+      catsContainer.innerHTML = DirectoryCharts.renderCategoryLollipopChart(dataset);
+    }
+
+    const demoContainer = document.getElementById('chart-demographic-bars');
+    if (demoContainer) {
+      demoContainer.innerHTML = DirectoryCharts.renderDemographicPinChart(dataset);
+    }
+
+    renderReadinessChartOnly();
+  }
+
+  function renderReadinessChartOnly() {
+    if (typeof DirectoryCharts === 'undefined' || !dataset || dataset.length === 0) return;
+    const readyContainer = document.getElementById('chart-readiness-ring');
+    if (readyContainer) {
+      readyContainer.innerHTML = DirectoryCharts.renderReadinessRingChart(dataset, state.savedIds, state.checklistState);
     }
   }
 
@@ -788,18 +839,19 @@
   window.openModalById = function (id) {
     const idx = currentFilteredList.findIndex(item => item.id === id);
     if (idx === -1) {
-      const globalItem = dataset.find(item => item.id === id);
-      if (globalItem) {
-        currentFilteredList = [globalItem];
-        currentModalIndex = 0;
+      const globalIdx = dataset.findIndex(item => item.id === id);
+      if (globalIdx !== -1) {
+        modalActiveList = dataset;
+        currentModalIndex = globalIdx;
       } else {
         return;
       }
     } else {
+      modalActiveList = currentFilteredList;
       currentModalIndex = idx;
     }
 
-    populateModal(currentFilteredList[currentModalIndex]);
+    populateModal(modalActiveList[currentModalIndex]);
     modal.classList.add('open');
     modalBackdrop.classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -885,11 +937,11 @@
     updateModalStarIcon(item);
 
     // Navigation position info
-    modalPositionIndicator.textContent = `${currentModalIndex + 1} of ${currentFilteredList.length}`;
+    modalPositionIndicator.textContent = `${currentModalIndex + 1} of ${modalActiveList.length}`;
     modalPrevBtn.disabled = currentModalIndex === 0;
-    modalNextBtn.disabled = currentModalIndex === currentFilteredList.length - 1;
+    modalNextBtn.disabled = currentModalIndex === modalActiveList.length - 1;
     modalPrevBtn.classList.toggle('opacity-40', currentModalIndex === 0);
-    modalNextBtn.classList.toggle('opacity-40', currentModalIndex === currentFilteredList.length - 1);
+    modalNextBtn.classList.toggle('opacity-40', currentModalIndex === modalActiveList.length - 1);
   }
 
   function renderModalChecklist(item) {
@@ -929,12 +981,14 @@
     localStorage.setItem('god_checklist_state', JSON.stringify(state.checklistState));
 
     // Update progress indicator
-    const currentItem = currentFilteredList[currentModalIndex];
+    const currentItem = modalActiveList[currentModalIndex];
     if (currentItem && currentItem.id === itemId) {
       const docs = currentItem.required_documents_list || [];
       const checkedCount = docs.filter(d => state.checklistState[itemId][d]).length;
       modalChecklistStatus.textContent = `${checkedCount} of ${docs.length} ready`;
     }
+
+    renderReadinessChartOnly();
   };
 
   function updateModalStarIcon(item) {
@@ -952,9 +1006,9 @@
 
   function stepModal(dir) {
     const newIdx = currentModalIndex + dir;
-    if (newIdx >= 0 && newIdx < currentFilteredList.length) {
+    if (newIdx >= 0 && newIdx < modalActiveList.length) {
       currentModalIndex = newIdx;
-      populateModal(currentFilteredList[currentModalIndex]);
+      populateModal(modalActiveList[currentModalIndex]);
     }
   }
 
@@ -973,8 +1027,8 @@
     localStorage.setItem('god_saved_ids', JSON.stringify(Array.from(state.savedIds)));
     updateSavedCounter();
 
-    if (currentFilteredList[currentModalIndex] && currentFilteredList[currentModalIndex].id === id) {
-      updateModalStarIcon(currentFilteredList[currentModalIndex]);
+    if (modalActiveList[currentModalIndex] && modalActiveList[currentModalIndex].id === id) {
+      updateModalStarIcon(modalActiveList[currentModalIndex]);
     }
 
     refresh();
@@ -985,6 +1039,7 @@
     savedCounter.textContent = count;
     const bottomSaved = document.getElementById('bottom-saved-count');
     if (bottomSaved) bottomSaved.textContent = `${count} Saved`;
+    renderReadinessChartOnly();
   }
 
   /**
@@ -1383,14 +1438,135 @@
     modalNextBtn.addEventListener('click', () => stepModal(1));
 
     modalCopyBtn.addEventListener('click', () => {
-      const currentItem = currentFilteredList[currentModalIndex];
+      const currentItem = modalActiveList[currentModalIndex];
       if (currentItem) window.copyOpportunityLink(currentItem.application_url);
     });
 
     modalStarBtn.addEventListener('click', () => {
-      const currentItem = currentFilteredList[currentModalIndex];
+      const currentItem = modalActiveList[currentModalIndex];
       if (currentItem) window.toggleBookmark(currentItem.id);
     });
+
+    // Interactive MiniCharts Hover Tooltip & Click Delegation
+    const totalsSection = document.getElementById('totals-section');
+    const chartTooltip = document.getElementById('chart-tooltip');
+    if (totalsSection) {
+      if (chartTooltip) {
+        totalsSection.addEventListener('mousemove', (e) => {
+          const target = e.target.closest('[data-tooltip]');
+          if (!target) {
+            chartTooltip.classList.remove('visible');
+            return;
+          }
+          const text = target.getAttribute('data-tooltip');
+          if (!text) return;
+
+          chartTooltip.textContent = text;
+          chartTooltip.classList.add('visible');
+
+          const tipW = chartTooltip.offsetWidth || 200;
+          const tipH = chartTooltip.offsetHeight || 34;
+          const left = Math.min(window.innerWidth - tipW - 12, Math.max(12, e.clientX + 12));
+          const top = e.clientY - tipH - 12 > 12 ? e.clientY - tipH - 12 : e.clientY + 18;
+          chartTooltip.style.left = `${left}px`;
+          chartTooltip.style.top = `${top}px`;
+        });
+
+        totalsSection.addEventListener('mouseleave', () => {
+          chartTooltip.classList.remove('visible');
+        });
+      }
+
+      totalsSection.addEventListener('click', (e) => {
+        const node = e.target.closest('[data-chart-action]');
+        if (!node) return;
+        const action = node.getAttribute('data-chart-action');
+        const val = node.getAttribute('data-chart-value') || '';
+
+        if (chartTooltip) chartTooltip.classList.remove('visible');
+
+        const scrollToDir = () => {
+          const dir = document.getElementById('directory-section');
+          if (dir) dir.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+
+        if (action === 'open-opp') {
+          const id = parseInt(val, 10);
+          if (!isNaN(id)) window.openModalById(id);
+          return;
+        }
+
+        if (action === 'region') {
+          state.regions = [val];
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast(`Filtered by region: ${val}`);
+        } else if (action === 'category') {
+          state.categories = [val];
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast(`Filtered by category: ${val}`);
+        } else if (action === 'eligibility') {
+          state.eligibilityTags = [val];
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast(`Filtered by audience: ${val}`);
+        } else if (action === 'search') {
+          state.search = val;
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast(`Showing results for "${val}"`);
+        } else if (action === 'active-only') {
+          state.onlyActiveDeadlines = true;
+          state.deadlineTypes = [];
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast('Filtered to open & active deadlines');
+        } else if (action === 'deadline-Specific date') {
+          state.deadlineTypes = ['Specific date'];
+          state.onlyActiveDeadlines = true;
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast('Filtered to upcoming dated deadlines');
+        } else if (action === 'deadline-Rolling') {
+          state.deadlineTypes = ['Rolling', 'Continuous intake'];
+          state.onlyActiveDeadlines = false;
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast('Filtered to Rolling & Continuous intakes');
+        } else if (action === 'deadline-Cohort') {
+          state.deadlineTypes = ['Varies by cohort', 'Check portal', 'Quarterly', 'Annual or recurring', 'Other/unspecified'];
+          state.onlyActiveDeadlines = false;
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast('Filtered to cohort & portal cycles');
+        } else if (action === 'all') {
+          state.deadlineTypes = [];
+          state.onlyActiveDeadlines = false;
+          state.page = 1;
+          refresh();
+          scrollToDir();
+          showToast('Showing all deadlines');
+        } else if (action === 'saved') {
+          if (state.savedIds.size === 0) {
+            showToast('Star any opportunity card to add it to your shortlist');
+            return;
+          }
+          state.onlySaved = true;
+          state.page = 1;
+          refresh();
+          scrollToDir();
+        }
+      });
+    }
 
     // Top Navigation Bar Triggers
     const navBrandLink = document.getElementById('nav-brand-link');

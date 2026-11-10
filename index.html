@@ -597,11 +597,11 @@
           <div class="flex items-center gap-2">
             <span class="w-2.5 h-2.5 rounded-full bg-teal-600"></span>
             <h2 class="text-base sm:text-lg font-extrabold text-slate-900 tracking-tight uppercase">
-              DIRECTORY TOTALS & ECOSYSTEM METRICS
+              DIRECTORY STATISTICS &amp; VISUAL ANALYTICS
             </h2>
           </div>
           <p class="text-xs text-slate-500 mt-1">
-            Authoritative analytical summary of all 138 opportunities across funding structures, geographical hubs, and application pipelines.
+            Interactive charts synced with the map palette and live dataset. Hover any pin, coin stack, or tile for details — click to filter or inspect.
           </p>
         </div>
 
@@ -618,151 +618,97 @@
         </div>
       </div>
 
-      <!-- 6 Totals Cards Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- 6 Visual MiniChart Analytics Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
         
-        <!-- Totals Card 1: Verified Opportunities & Pages -->
+        <!-- Chart 1: Regional Footprint (Map-Matched Pin Bubbles) -->
         <div class="totals-card">
           <div>
-            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              <span>Directory Scope</span>
-              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-blue-100 text-blue-800 font-bold">23 Pages</span>
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+              <span>Geographic Footprint</span>
+              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-blue-100 text-blue-800 font-bold">7 Regions</span>
             </div>
-            <div class="text-3xl font-extrabold text-slate-900 tracking-tight">138</div>
-            <p class="text-xs text-slate-600 mt-1 font-medium">Total Opportunities Verified (0 Duplicates)</p>
-
-            <!-- Regional distribution visual bar -->
-            <div class="w-full bg-slate-200 h-2 rounded-full overflow-hidden flex mt-4" title="Africa (58%), Global (30%), Europe (9%), Americas (8%), Asia (8%), MidEast (1%), Oceania (1%)">
-              <div class="bg-blue-600 h-full" style="width: 58%"></div>
-              <div class="bg-slate-700 h-full" style="width: 30%"></div>
-              <div class="bg-teal-600 h-full" style="width: 9%"></div>
-              <div class="bg-indigo-600 h-full" style="width: 8%"></div>
-              <div class="bg-sky-500 h-full" style="width: 8%"></div>
-              <div class="bg-amber-500 h-full" style="width: 2%"></div>
+            <div class="flex items-baseline gap-2 mb-3">
+              <span class="text-2xl font-extrabold text-slate-900 tracking-tight">138</span>
+              <span class="text-xs text-slate-500 font-medium">programs mapped by host hub</span>
             </div>
-
-            <div class="mt-3 grid grid-cols-2 gap-y-1 text-[11px] text-slate-500 font-medium">
-              <div>🌍 Africa: <strong class="text-slate-800">80</strong></div>
-              <div>🌐 Global: <strong class="text-slate-800">41</strong></div>
-              <div>🇪🇺 Europe: <strong class="text-slate-800">13</strong></div>
-              <div>🌎 Americas: <strong class="text-slate-800">11</strong></div>
-              <div>🌏 Asia: <strong class="text-slate-800">11</strong></div>
-              <div>🕌 Middle East: <strong class="text-slate-800">2</strong></div>
-            </div>
+            <div id="chart-region-pins" class="w-full"></div>
           </div>
         </div>
 
-        <!-- Totals Card 2: Funding & Grant Pools -->
+        <!-- Chart 2: Live Deadline Pipeline (23x6 = 138 Unit Waffle) -->
         <div class="totals-card">
           <div>
-            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              <span>Financial Awards</span>
-              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-emerald-100 text-emerald-800 font-bold">Multi-Currency</span>
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+              <span>Deadline Pipeline</span>
+              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-emerald-100 text-emerald-800 font-bold">Unit Waffle</span>
             </div>
-            <div class="text-2xl font-extrabold text-emerald-800 tracking-tight">₦2.5B+ • $5M+</div>
-            <div class="text-xs font-bold text-emerald-700 mt-0.5">€6.0M+ &amp; £2.2M+ Capital Pools</div>
-            <p class="text-xs text-slate-600 mt-2 font-medium">
-              Substantial equity-free grants, prizes, seed funding, and corporate loans tracked in directory.
-            </p>
-
-            <div class="mt-3 space-y-1 text-[11px] text-slate-600 border-t border-slate-200/80 pt-2">
-              <div class="flex justify-between"><span>Flourish Africa Grant:</span> <strong class="text-slate-900">₦1.3 Billion</strong></div>
-              <div class="flex justify-between"><span>BOI x MTN Y'ellopreneur:</span> <strong class="text-slate-900">₦1.0 Billion</strong></div>
-              <div class="flex justify-between"><span>EU Green Assist Advisory:</span> <strong class="text-slate-900">€3.0 Million</strong></div>
-              <div class="flex justify-between"><span>EIC Accelerator DeepTech:</span> <strong class="text-slate-900">€2.5 Million</strong></div>
-              <div class="flex justify-between"><span>Africa's Business Heroes:</span> <strong class="text-slate-900">$1.5 Million</strong></div>
+            <div class="flex items-baseline gap-2 mb-3">
+              <span class="text-2xl font-extrabold text-slate-900 tracking-tight" id="stat-waffle-active">61 Active</span>
+              <span class="text-xs text-slate-500 font-medium">evaluated live against today</span>
             </div>
+            <div id="chart-deadline-waffle" class="w-full"></div>
           </div>
         </div>
 
-        <!-- Totals Card 3: Intake Models & Deadlines -->
+        <!-- Chart 3: Headline Financial Pools (Stacked Coin Towers) -->
         <div class="totals-card">
           <div>
-            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              <span>Application Pipelines</span>
-              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-emerald-100 text-emerald-800 font-bold">Live Flow</span>
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+              <span>Headline Capital Pools</span>
+              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-amber-100 text-amber-800 font-bold">Coin Scale</span>
             </div>
-            <div class="text-3xl font-extrabold text-slate-900 tracking-tight">29 Open Now</div>
-            <p class="text-xs text-slate-600 mt-1 font-medium">Rolling and continuous intake pipelines.</p>
-
-            <div class="mt-4 space-y-1.5 text-xs">
-              <div class="flex items-center justify-between p-1.5 rounded bg-white border border-slate-200">
-                <span class="text-slate-600">Rolling / Continuous Intakes:</span>
-                <span class="font-bold text-emerald-700 font-mono">29</span>
-              </div>
-              <div class="flex items-center justify-between p-1.5 rounded bg-white border border-slate-200">
-                <span class="text-slate-600">Upcoming Listed Deadlines:</span>
-                <span class="font-bold text-blue-700 font-mono">32</span>
-              </div>
-              <div class="flex items-center justify-between p-1.5 rounded bg-white border border-slate-200">
-                <span class="text-slate-600">Cohort &amp; Recurring Windows:</span>
-                <span class="font-bold text-slate-700 font-mono">37</span>
-              </div>
-              <div class="flex items-center justify-between p-1.5 rounded bg-white border border-slate-200">
-                <span class="text-slate-600">Listed Past (Verify with Provider):</span>
-                <span class="font-bold text-amber-700 font-mono">40</span>
-              </div>
+            <div class="flex items-baseline gap-2 mb-3">
+              <span class="text-xl sm:text-2xl font-extrabold text-emerald-800 tracking-tight">₦2.5B+ • $5M+ • €6M+</span>
             </div>
+            <div id="chart-capital-coins" class="w-full"></div>
           </div>
         </div>
 
-        <!-- Totals Card 4: Target Demographic Distribution -->
+        <!-- Chart 4: Program Categories (Map-Pin Lollipop Axis) -->
         <div class="totals-card">
           <div>
-            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              <span>Demographic Scope</span>
-              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-purple-100 text-purple-800 font-bold">Inclusive</span>
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+              <span>Opportunity Categories</span>
+              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-teal-100 text-teal-800 font-bold">Pin Matrix</span>
             </div>
-            <div class="text-3xl font-extrabold text-slate-900 tracking-tight">25 Women</div>
-            <p class="text-xs text-slate-600 mt-1 font-medium">Dedicated Female Founders &amp; Women-in-Tech programs.</p>
-
-            <div class="mt-3 space-y-1 text-[11px] text-slate-600 border-t border-slate-200/80 pt-2">
-              <div class="flex justify-between"><span>Startups, Pre-Seed &amp; SMEs:</span> <strong class="text-slate-900">80+ Programs</strong></div>
-              <div class="flex justify-between"><span>Youth (&lt;35) &amp; Early Career:</span> <strong class="text-slate-900">35+ Programs</strong></div>
-              <div class="flex justify-between"><span>Tertiary Students &amp; Scholars:</span> <strong class="text-slate-900">20+ Programs</strong></div>
-              <div class="flex justify-between"><span>Researchers &amp; Scientists:</span> <strong class="text-slate-900">12+ Programs</strong></div>
-              <div class="flex justify-between"><span>NGOs &amp; Civic Initiatives:</span> <strong class="text-slate-900">8+ Programs</strong></div>
+            <div class="flex items-baseline gap-2 mb-3">
+              <span class="text-2xl font-extrabold text-teal-800 tracking-tight">65 Grants</span>
+              <span class="text-xs text-slate-500 font-medium">top tagged tracks (multi-tag)</span>
             </div>
+            <div id="chart-category-lollipops" class="w-full"></div>
           </div>
         </div>
 
-        <!-- Totals Card 5: Classification by Core Category -->
+        <!-- Chart 5: Target Demographics (Scaled Capsule Bars) -->
         <div class="totals-card">
           <div>
-            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              <span>Program Categories</span>
-              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-teal-100 text-teal-800 font-bold">12 Types</span>
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+              <span>Demographic Reach</span>
+              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-indigo-100 text-indigo-800 font-bold">Audiences</span>
             </div>
-            <div class="text-3xl font-extrabold text-teal-800 tracking-tight">52 Grants</div>
-            <p class="text-xs text-slate-600 mt-1 font-medium">Grants, prize challenges, and cash rewards.</p>
-
-            <div class="mt-3 flex flex-wrap gap-1.5 pt-1">
-              <span class="badge badge-teal">52 Grants &amp; Prizes</span>
-              <span class="badge badge-blue">32 Accelerators / Incubators</span>
-              <span class="badge badge-slate">18 Fellowships</span>
-              <span class="badge badge-slate">10 Internships</span>
-              <span class="badge badge-slate">22 Training Tracks</span>
-              <span class="badge badge-slate">11 Business Support</span>
-              <span class="badge badge-slate">8 Scholarships</span>
+            <div class="flex items-baseline gap-2 mb-3">
+              <span class="text-2xl font-extrabold text-slate-900 tracking-tight">25 Women</span>
+              <span class="text-xs text-slate-500 font-medium">dedicated founders &amp; tech cohorts</span>
             </div>
+            <div id="chart-demographic-bars" class="w-full"></div>
           </div>
         </div>
 
-        <!-- Totals Card 6: Application Tooling & Shortlist -->
+        <!-- Chart 6: Applicant Shortlist & Dossier Readiness (Orbital Gauge) -->
         <div class="totals-card">
           <div>
-            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              <span>Applicant Utilities</span>
-              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-amber-100 text-amber-800 font-bold">Readiness Hub</span>
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+              <span>Readiness Tracker</span>
+              <span class="px-2 py-0.5 rounded font-mono text-[11px] bg-purple-100 text-purple-800 font-bold">Your Progress</span>
             </div>
-            <div class="text-3xl font-extrabold text-slate-900 tracking-tight" id="bottom-saved-count">0 Saved</div>
-            <p class="text-xs text-slate-600 mt-1 font-medium">Opportunities bookmarked to your local shortlist.</p>
+            <div class="flex items-baseline gap-2 mb-3">
+              <span class="text-2xl font-extrabold text-slate-900 tracking-tight" id="bottom-saved-count">0 Saved</span>
+              <span class="text-xs text-slate-500 font-medium">shortlist &amp; checklist status</span>
+            </div>
+            <div id="chart-readiness-ring" class="w-full"></div>
 
-            <p class="text-[11px] text-slate-500 mt-2">
-              Use the interactive document checklist in any opportunity's detail drawer to track your Pitch Decks, CAC Documents, Transcripts, and CV readiness.
-            </p>
-
-            <div class="mt-4 flex flex-wrap gap-2">
+            <div class="mt-3 flex flex-wrap gap-2">
               <button onclick="document.getElementById('toggle-saved-btn').click()" class="btn btn-secondary btn-sm flex-1">
                 View Shortlist
               </button>
@@ -1256,6 +1202,9 @@
 
   </div>
 
+  <!-- INTERACTIVE CHART TOOLTIP -->
+  <div id="chart-tooltip" class="chart-tooltip" role="tooltip"></div>
+
   <!-- TOAST FEEDBACK NOTIFICATION CONTAINER -->
   <div class="toast-container" id="toast-container"></div>
 
@@ -1287,9 +1236,10 @@
     </div>
   </footer>
 
-  <!-- DATA & ENGINE SCRIPTS -->
+  <!-- DATA, ENGINE & CHARTS SCRIPTS -->
   <script src="js/opportunities_data.js"></script>
   <script src="js/engine.js"></script>
+  <script src="js/charts.js"></script>
   <script src="js/ui.js"></script>
 </body>
 </html>

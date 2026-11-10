@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const Engine = require(path.join(__dirname, 'js/engine.js'));
+const Charts = require(path.join(__dirname, 'js/charts.js'));
 const rawData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data/opportunities.json'), 'utf8'));
 
 console.log('--- 1. VERIFY TOTAL COUNT & NO DUPLICATES ---');
@@ -172,6 +173,42 @@ if (defaultPaginated.totalPages !== Math.ceil(138 / 6)) {
   throw new Error(`Expected ${Math.ceil(138 / 6)} pages, got ${defaultPaginated.totalPages}`);
 }
 
+console.log('\n--- 10. TEST STATISTICS SVG MINICHARTS ---');
+const regionSvg = Charts.renderRegionPinChart(rawData);
+const coinSvg = Charts.renderCapitalCoinChart();
+const waffleOut = Charts.renderDeadlineWaffleChart(rawData);
+const categorySvg = Charts.renderCategoryLollipopChart(rawData);
+const demoSvg = Charts.renderDemographicPinChart(rawData);
+const readySvg = Charts.renderReadinessRingChart(rawData, new Set([1, 2]), { 1: { 'Pitch Deck': true } });
+
+const svgsToVerify = [
+  ['RegionPinChart', regionSvg],
+  ['CapitalCoinChart', coinSvg],
+  ['DeadlineWaffleChart', waffleOut.svg],
+  ['CategoryLollipopChart', categorySvg],
+  ['DemographicPinChart', demoSvg],
+  ['ReadinessRingChart', readySvg]
+];
+
+svgsToVerify.forEach(([name, svg]) => {
+  if (!svg || !svg.includes('<svg') || !svg.includes('</svg>')) {
+    throw new Error(`${name} did not produce a valid SVG`);
+  }
+  if (svg.includes('NaN') || svg.includes('undefined')) {
+    throw new Error(`${name} contains NaN or undefined values`);
+  }
+});
+
+const tileMatches = waffleOut.svg.match(/class="waffle-tile/g) || [];
+console.log(`Generated 6 SVG MiniCharts cleanly; Deadline Waffle has ${tileMatches.length} unit tiles.`);
+if (tileMatches.length !== 138) {
+  throw new Error(`Expected 138 waffle tiles, got ${tileMatches.length}`);
+}
+const bucketSum = waffleOut.counts.urgent + waffleOut.counts.open + waffleOut.counts.rolling + waffleOut.counts.cohort + waffleOut.counts.passed;
+if (bucketSum !== 138) {
+  throw new Error(`Waffle bucket counts do not sum to 138 (${bucketSum})`);
+}
+
 console.log('\n=======================================');
-console.log('ALL 9 AUTOMATED VERIFICATION TESTS PASSED!');
+console.log('ALL 10 AUTOMATED VERIFICATION TESTS PASSED!');
 console.log('=======================================');
