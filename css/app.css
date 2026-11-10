@@ -68,6 +68,56 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#map-section,
+#directory-section,
+#totals-section {
+  scroll-margin-top: 72px;
+}
+
+/* Primary Top Navigation Menu */
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.nav-link:hover {
+  background-color: var(--bg-subtle);
+  color: var(--text-title);
+  text-decoration: none;
+}
+.nav-link.active-nav {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+}
+.nav-link-playbook {
+  color: #6d28d9;
+}
+.nav-link-playbook:hover {
+  background-color: #f5f3ff;
+  color: #5b21b6;
+}
+@media (max-width: 639px) {
+  .nav-link {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;

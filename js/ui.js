@@ -993,7 +993,12 @@
   window.setPage = function (pageNum) {
     state.page = pageNum;
     refresh();
-    window.scrollTo({ top: 320, behavior: 'smooth' });
+    const dirSection = document.getElementById('directory-section');
+    if (dirSection) {
+      dirSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      window.scrollTo({ top: 320, behavior: 'smooth' });
+    }
   };
 
   /**
@@ -1386,6 +1391,67 @@
       const currentItem = currentFilteredList[currentModalIndex];
       if (currentItem) window.toggleBookmark(currentItem.id);
     });
+
+    // Top Navigation Bar Triggers
+    const navBrandLink = document.getElementById('nav-brand-link');
+    if (navBrandLink) {
+      navBrandLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    const navPlaybookBtn = document.getElementById('nav-playbook-btn');
+    if (navPlaybookBtn) {
+      navPlaybookBtn.addEventListener('click', () => window.openPlaybookModal('tab-overview'));
+    }
+
+    const navTargetLinks = document.querySelectorAll('.nav-link[data-nav-target]');
+    function setActiveNavTarget(targetId) {
+      navTargetLinks.forEach(link => {
+        link.classList.toggle('active-nav', link.getAttribute('data-nav-target') === targetId);
+      });
+    }
+
+    navTargetLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('data-nav-target');
+        const targetEl = document.getElementById(targetId);
+        if (!targetEl) return;
+
+        // If jumping to Map and it was collapsed, automatically expand it
+        if (targetId === 'map-section' && mapSvgContainer && mapSvgContainer.classList.contains('hidden')) {
+          mapSvgContainer.classList.remove('hidden');
+          if (toggleMapText) toggleMapText.textContent = 'Hide Map';
+        }
+
+        setActiveNavTarget(targetId);
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    // Scroll-spy for Top Navigation Links
+    const observedSectionIds = ['map-section', 'directory-section', 'totals-section'];
+    let scrollSpyRaf = null;
+    window.addEventListener('scroll', () => {
+      if (scrollSpyRaf) return;
+      scrollSpyRaf = window.requestAnimationFrame(() => {
+        scrollSpyRaf = null;
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 40) {
+          setActiveNavTarget('totals-section');
+          return;
+        }
+        let activeId = observedSectionIds[0];
+        observedSectionIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (el && el.getBoundingClientRect().top <= 140) {
+            activeId = id;
+          }
+        });
+        setActiveNavTarget(activeId);
+      });
+    }, { passive: true });
 
     // Playbook Modal triggers
     const openPlaybookBtn = document.getElementById('open-playbook-btn');
