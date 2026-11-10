@@ -578,9 +578,16 @@ mark.search-highlight {
   transform-box: fill-box;
   transform-origin: center;
 }
-.chart-node:hover {
+.chart-node:not(.chart-row):hover {
   transform: scale(1.03);
   opacity: 0.94;
+}
+.chart-node.chart-row .chart-row-bg {
+  transition: fill 0.14s ease, fill-opacity 0.14s ease;
+}
+.chart-node.chart-row:hover .chart-row-bg {
+  fill: #cbd5e1;
+  fill-opacity: 0.28;
 }
 
 .waffle-tile {
@@ -597,18 +604,21 @@ mark.search-highlight {
 
 .chart-tooltip {
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 150;
   pointer-events: none;
   background-color: #0f172a;
   color: #f8fafc;
-  font-size: 11px;
+  font-size: 11.5px;
   font-weight: 600;
   line-height: 1.35;
-  padding: 6px 10px;
-  border-radius: 8px;
+  padding: 7px 11px;
+  border-radius: 9px;
   box-shadow: var(--shadow-lg);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  max-width: 260px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  width: max-content;
+  max-width: min(320px, calc(100vw - 24px));
   opacity: 0;
   transform: translateY(4px);
   transition: opacity 0.12s ease, transform 0.12s ease;
@@ -616,6 +626,17 @@ mark.search-highlight {
 .chart-tooltip.visible {
   opacity: 1;
   transform: translateY(0);
+}
+.chart-tooltip-main {
+  color: #f8fafc;
+  font-weight: 700;
+  word-break: break-word;
+}
+.chart-tooltip-sub {
+  color: #94a3b8;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 2px;
 }
 
 /* Persona Quick Pills */

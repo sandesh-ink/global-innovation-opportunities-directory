@@ -287,7 +287,7 @@
       const row = Math.floor(idx / cols);
       const x = (startX + col * step).toFixed(1);
       const y = (startY + row * step).toFixed(1);
-      const tt = `#${t.item.id} ${t.item.opportunity_name} — ${t.status.badgeText} (Click to inspect)`;
+      const tt = `#${t.item.id} ${t.item.opportunity_name} — ${t.status.badgeText} • Click to inspect`;
 
       tilesMarkup += `
         <rect 
@@ -397,12 +397,12 @@
 
       rowsMarkup += `
         <g 
-          class="chart-node cursor-pointer" 
+          class="chart-node chart-row cursor-pointer" 
           data-chart-action="category" 
           data-chart-value="${esc(cat)}"
           data-tooltip="${esc(cat)}: ${count} programs (${pct}% of directory) • Click to filter"
         >
-          <rect x="8" y="${y - 9.5}" width="344" height="19" rx="5" fill="transparent" />
+          <rect x="8" y="${y - 9.5}" width="344" height="19" rx="5" fill="transparent" class="chart-row-bg" />
           <text x="106" y="${y + 3}" text-anchor="end" fill="#334155" font-size="9.5" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">${esc(shortLabel)}</text>
           <line x1="${xStart}" y1="${y}" x2="338" y2="${y}" stroke="#e2e8f0" stroke-width="3.5" stroke-linecap="round" />
           <line x1="${xStart}" y1="${y}" x2="${barEnd}" y2="${y}" stroke="${col}" stroke-width="4" stroke-linecap="round" />
@@ -487,11 +487,12 @@
 
       rowsMarkup += `
         <g 
-          class="chart-node cursor-pointer" 
+          class="chart-node chart-row cursor-pointer" 
           data-chart-action="eligibility" 
           data-chart-value="${esc(tag)}"
           data-tooltip="${esc(displayLabel)}: ${count} programs (${pct}% match) • Click to filter"
         >
+          <rect x="8" y="${y - 9.5}" width="344" height="19" rx="5" fill="transparent" class="chart-row-bg" />
           <text x="100" y="${y + 3}" text-anchor="end" fill="#334155" font-size="9.5" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">${esc(displayLabel)}</text>
           <rect x="${xStart}" y="${y - 5.5}" width="${maxLen}" height="11" rx="5.5" fill="#e2e8f0" opacity="0.65" />
           <rect x="${xStart}" y="${y - 5.5}" width="${width}" height="11" rx="5.5" fill="${col}" />

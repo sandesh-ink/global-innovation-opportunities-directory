@@ -209,6 +209,16 @@ if (bucketSum !== 138) {
   throw new Error(`Waffle bucket counts do not sum to 138 (${bucketSum})`);
 }
 
+const catHitRects = (categorySvg.match(/class="chart-row-bg"/g) || []).length;
+const demHitRects = (demoSvg.match(/class="chart-row-bg"/g) || []).length;
+if (catHitRects !== 8 || demHitRects !== 8) {
+  throw new Error(`Expected 8 full-row hit rects in horizontal charts (got cat=${catHitRects}, dem=${demHitRects})`);
+}
+const smeRes = Engine.filterAndSort(rawData, { eligibilityTags: ['SMEs/business owners'] });
+if (smeRes.totalCount !== 20) {
+  throw new Error(`Expected 20 items for SMEs/business owners, got ${smeRes.totalCount}`);
+}
+
 console.log('\n=======================================');
 console.log('ALL 10 AUTOMATED VERIFICATION TESTS PASSED!');
 console.log('=======================================');

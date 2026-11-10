@@ -161,7 +161,7 @@
       waffleContainer.innerHTML = waffleData.svg;
       const waffleHeader = document.getElementById('stat-waffle-active');
       if (waffleHeader && waffleData.counts) {
-        waffleHeader.textContent = `${waffleData.counts.activeTotal} Active / Open`;
+        waffleHeader.textContent = `${waffleData.counts.activeTotal} Active`;
       }
     }
 
@@ -1452,6 +1452,22 @@
     const chartTooltip = document.getElementById('chart-tooltip');
     if (totalsSection) {
       if (chartTooltip) {
+        const setTooltipContent = (rawText) => {
+          chartTooltip.innerHTML = '';
+          const parts = rawText.split(' • ');
+          const mainDiv = document.createElement('div');
+          mainDiv.className = 'chart-tooltip-main';
+          mainDiv.textContent = parts[0] || rawText;
+          chartTooltip.appendChild(mainDiv);
+
+          if (parts.length > 1) {
+            const subDiv = document.createElement('div');
+            subDiv.className = 'chart-tooltip-sub';
+            subDiv.textContent = parts.slice(1).join(' • ');
+            chartTooltip.appendChild(subDiv);
+          }
+        };
+
         totalsSection.addEventListener('mousemove', (e) => {
           const target = e.target.closest('[data-tooltip]');
           if (!target) {
@@ -1461,20 +1477,31 @@
           const text = target.getAttribute('data-tooltip');
           if (!text) return;
 
-          chartTooltip.textContent = text;
+          // Reset coordinates before measuring so previous edge placement never shrinks max-width
+          chartTooltip.style.left = '0px';
+          chartTooltip.style.top = '0px';
+          setTooltipContent(text);
           chartTooltip.classList.add('visible');
 
-          const tipW = chartTooltip.offsetWidth || 200;
-          const tipH = chartTooltip.offsetHeight || 34;
+          const tipRect = chartTooltip.getBoundingClientRect();
+          const tipW = tipRect.width || 220;
+          const tipH = tipRect.height || 38;
           const left = Math.min(window.innerWidth - tipW - 12, Math.max(12, e.clientX + 12));
-          const top = e.clientY - tipH - 12 > 12 ? e.clientY - tipH - 12 : e.clientY + 18;
-          chartTooltip.style.left = `${left}px`;
-          chartTooltip.style.top = `${top}px`;
+          const minTop = 64; // Clear the 56px sticky header
+          const top = e.clientY - tipH - 12 >= minTop
+            ? e.clientY - tipH - 12
+            : Math.min(window.innerHeight - tipH - 12, e.clientY + 18);
+          chartTooltip.style.left = `${Math.round(left)}px`;
+          chartTooltip.style.top = `${Math.round(top)}px`;
         });
 
         totalsSection.addEventListener('mouseleave', () => {
           chartTooltip.classList.remove('visible');
         });
+
+        window.addEventListener('scroll', () => {
+          chartTooltip.classList.remove('visible');
+        }, { passive: true });
       }
 
       totalsSection.addEventListener('click', (e) => {
