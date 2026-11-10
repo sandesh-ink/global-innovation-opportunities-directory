@@ -38,85 +38,7 @@
   }
 
   /**
-   * CHART 1: Regional Footprint — Map-Matched Packed Pin Constellation
-   * Radius scaled proportional to square root of count (area-accurate)
-   */
-  function renderRegionPinChart(dataset) {
-    const regionCounts = {
-      Africa: 0,
-      Global: 0,
-      Europe: 0,
-      Americas: 0,
-      Asia: 0,
-      'Middle East': 0,
-      Oceania: 0
-    };
-
-    dataset.forEach(item => {
-      (item.region_tags || []).forEach(r => {
-        if (Object.prototype.hasOwnProperty.call(regionCounts, r)) {
-          regionCounts[r]++;
-        }
-      });
-    });
-
-    const total = dataset.length || 138;
-    const maxCount = Math.max(1, ...Object.values(regionCounts));
-
-    const nodes = [
-      { key: 'Africa', label: 'AFRICA', fill: '#2563eb', dark: '#1d4ed8', cx: 82, cy: 66, labelY: 112 },
-      { key: 'Global', label: 'GLOBAL', fill: '#1e293b', dark: '#0f172a', cx: 196, cy: 66, labelY: 112 },
-      { key: 'Europe', label: 'EUROPE', fill: '#0d9488', dark: '#0f766e', cx: 294, cy: 66, labelY: 112 },
-      { key: 'Americas', label: 'AMERICAS', fill: '#4f46e5', dark: '#4338ca', cx: 56, cy: 152, labelY: 186 },
-      { key: 'Asia', label: 'ASIA', fill: '#0284c7', dark: '#0369a1', cx: 140, cy: 152, labelY: 186 },
-      { key: 'Middle East', label: 'MID EAST', fill: '#d97706', dark: '#b45309', cx: 226, cy: 152, labelY: 186 },
-      { key: 'Oceania', label: 'OCEANIA', fill: '#059669', dark: '#047857', cx: 306, cy: 152, labelY: 186 }
-    ];
-
-    let pinsMarkup = '';
-    nodes.forEach(n => {
-      const count = regionCounts[n.key] || 0;
-      const pct = Math.round((count / total) * 100);
-      const r = Math.max(10, Math.round(Math.sqrt(count / maxCount) * 31));
-      const haloR = r + 7;
-      const fontSize = r >= 24 ? 13 : r >= 15 ? 11 : 9.5;
-      const pillLabel = pct >= 5 ? `${n.label} ${pct}%` : n.label;
-      const pillW = Math.max(54, pillLabel.length * 5.8 + 16);
-      const pillX = Math.max(8, Math.min(352 - pillW, n.cx - pillW / 2));
-
-      pinsMarkup += `
-        <g 
-          class="chart-node cursor-pointer" 
-          data-chart-action="region" 
-          data-chart-value="${esc(n.key)}"
-          data-tooltip="${esc(n.key)}: ${count} opportunities (${pct}% of directory) • Click to filter"
-        >
-          <circle cx="${n.cx}" cy="${n.cy}" r="${haloR}" fill="${n.fill}" opacity="0.16" />
-          <circle cx="${n.cx}" cy="${n.cy}" r="${r + 2.5}" fill="${n.dark}" filter="url(#chartShadow-reg)" />
-          <circle cx="${n.cx}" cy="${n.cy}" r="${r}" fill="${n.fill}" stroke="#ffffff" stroke-width="2" />
-          <text x="${n.cx}" y="${n.cy + fontSize * 0.36}" text-anchor="middle" fill="#ffffff" font-size="${fontSize}" font-weight="800" font-family="'JetBrains Mono', monospace">${count}</text>
-          <rect x="${pillX}" y="${n.labelY - 10}" width="${pillW}" height="17" rx="8.5" fill="#0f172a" />
-          <text x="${pillX + pillW / 2}" y="${n.labelY + 1.5}" text-anchor="middle" fill="#f8fafc" font-size="8.2" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">${esc(pillLabel)}</text>
-        </g>
-      `;
-    });
-
-    return `
-      <svg viewBox="0 0 360 215" class="w-full h-auto select-none block" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Regional opportunity distribution bubble pin chart">
-        ${svgHeaderDefs('reg')}
-        <g stroke="#e2e8f0" stroke-width="0.8" stroke-dasharray="4 5">
-          <line x1="20" y1="66" x2="340" y2="66" />
-          <line x1="20" y1="152" x2="340" y2="152" />
-          <line x1="120" y1="16" x2="120" y2="198" />
-          <line x1="240" y1="16" x2="240" y2="198" />
-        </g>
-        ${pinsMarkup}
-      </svg>
-    `;
-  }
-
-  /**
-   * CHART 2: Headline Capital Pools — Stacked Coin Towers (MiniCharts Metaphor)
+   * CHART 1: Headline Capital Pools — Stacked Coin Towers (MiniCharts Metaphor)
    * Displays top awards sized cleanly to approximate USD value scale.
    */
   function renderCapitalCoinChart() {
@@ -607,7 +529,6 @@
   }
 
   return {
-    renderRegionPinChart,
     renderCapitalCoinChart,
     renderDeadlineWaffleChart,
     renderCategoryLollipopChart,

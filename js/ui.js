@@ -150,11 +150,6 @@
   function renderStatisticsCharts() {
     if (typeof DirectoryCharts === 'undefined') return;
 
-    const regionContainer = document.getElementById('chart-region-pins');
-    if (regionContainer) {
-      regionContainer.innerHTML = DirectoryCharts.renderRegionPinChart(dataset);
-    }
-
     const waffleContainer = document.getElementById('chart-deadline-waffle');
     if (waffleContainer) {
       const waffleData = DirectoryCharts.renderDeadlineWaffleChart(dataset);

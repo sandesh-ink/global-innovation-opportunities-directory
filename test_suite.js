@@ -174,7 +174,6 @@ if (defaultPaginated.totalPages !== Math.ceil(138 / 6)) {
 }
 
 console.log('\n--- 10. TEST STATISTICS SVG MINICHARTS ---');
-const regionSvg = Charts.renderRegionPinChart(rawData);
 const coinSvg = Charts.renderCapitalCoinChart();
 const waffleOut = Charts.renderDeadlineWaffleChart(rawData);
 const categorySvg = Charts.renderCategoryLollipopChart(rawData);
@@ -182,7 +181,6 @@ const demoSvg = Charts.renderDemographicPinChart(rawData);
 const readySvg = Charts.renderReadinessRingChart(rawData, new Set([1, 2]), { 1: { 'Pitch Deck': true } });
 
 const svgsToVerify = [
-  ['RegionPinChart', regionSvg],
   ['CapitalCoinChart', coinSvg],
   ['DeadlineWaffleChart', waffleOut.svg],
   ['CategoryLollipopChart', categorySvg],
@@ -200,7 +198,7 @@ svgsToVerify.forEach(([name, svg]) => {
 });
 
 const tileMatches = waffleOut.svg.match(/class="waffle-tile/g) || [];
-console.log(`Generated 6 SVG MiniCharts cleanly; Deadline Waffle has ${tileMatches.length} unit tiles.`);
+console.log(`Generated 5 SVG MiniCharts cleanly; Deadline Waffle has ${tileMatches.length} unit tiles.`);
 if (tileMatches.length !== 138) {
   throw new Error(`Expected 138 waffle tiles, got ${tileMatches.length}`);
 }
