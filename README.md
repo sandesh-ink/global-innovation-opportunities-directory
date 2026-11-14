@@ -1,7 +1,7 @@
 # Innovation Atlas (2026/2027)
 ### The Global Innovation, Grants & Accelerators Directory
 
-A complete, database-driven, responsive intelligence platform and interactive directory constructed from the **2026/2027 Master Opportunities Directory**, originally compiled and published by **Abdulsamad ([@richtosho](https://x.com/richtosho))** on X / Twitter.
+A complete, database-driven, responsive intelligence platform and interactive directory built by **Sandesh** ([sandesh.ink](https://sandesh.ink) • [@sandeshr3ddy](https://x.com/sandeshr3ddy) — Founder, Facilitator, Writer) from the **2026/2027 Master Opportunities Directory**, originally compiled and published by **Abdulsamad ([@richtosho](https://x.com/richtosho))** on X / Twitter.
 
 Innovation Atlas transforms raw PDF data into an active operational cockpit for founders, researchers, women in tech, students, and SMEs seeking non-dilutive grants, pre-seed accelerators, and fellowships worldwide.
 
@@ -55,6 +55,7 @@ Innovation Atlas tracks **$100M+ in funding pools across 138 vetted global and r
 
 ## 📋 Executive Overview & Data Accounting
 
+- **Platform Creator & Developer**: Sandesh — **Website**: [sandesh.ink](https://sandesh.ink) — **Twitter/X**: [@sandeshr3ddy](https://x.com/sandeshr3ddy) — *Founder, Facilitator, Writer*
 - **Data Originator & Compiler**: Abdulsamad — **Twitter/X**: [@richtosho](https://x.com/richtosho)
 - **Authoritative Source Document**: `2026_2027 Global and Regional Opportunities Directory .pdf` (23 pages)
 - **Total Opportunities Extracted**: **138** numbered programs across all **23 pages**
@@ -65,7 +66,7 @@ Innovation Atlas tracks **$100M+ in funding pools across 138 vetted global and r
   - Rolling & Continuous Intakes: **29**
   - Cohort / Portal / Recurring Windows: **37**
   - Past listed deadlines relative to current date: **40** (labeled with caution notice: `Listed deadline passed — verify with provider`)
-- **Attribution**: Original compilation by Abdulsamad (`@richtosho`).
+- **Attribution**: Original opportunity compilation by Abdulsamad (`@richtosho`); interactive database, applicant playbook, deadline engines, and platform UI engineered by Sandesh (`@sandeshr3ddy` • `sandesh.ink`).
 
 ---
 
